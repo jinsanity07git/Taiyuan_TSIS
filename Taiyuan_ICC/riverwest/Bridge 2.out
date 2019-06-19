@@ -1,0 +1,1651 @@
+
+
+
+
+INPUT FILE NAME: C:\TSIS6 Projects\ty\Bridge 2.trf                 
+RUN DATE       : 06/19/19  
+
+
+
+
+
+
+
+
+                                        TTTTTTTTTTT  RRRRRRRRR      AAAAAAA    FFFFFFFFFFF
+                                        TTTTTTTTTTT  RRRRRRRRRR    AAAAAAAAA   FFFFFFFFFFF
+                                        TTTTTTTTTTT  RRRRRRRRRRR  AAAAAAAAAAA  FFFFFFFFFFF
+                                            TTT      RRR     RRR  AAA     AAA  FFF        
+                                            TTT      RRR     RRR  AAA     AAA  FFF        
+                                            TTT      RRRRRRRRRRR  AAAAAAAAAAA  FFFFFFF    
+                                            TTT      RRRRRRRRRR   AAAAAAAAAAA  FFFFFFF    
+                                            TTT      RRR RRR      AAA     AAA  FFF        
+                                            TTT      RRR  RRR     AAA     AAA  FFF        
+                                            TTT      RRR   RRR    AAA     AAA  FFF        
+                                            TTT      RRR    RRR   AAA     AAA  FFF        
+                                            TTT      RRR     RRR  AAA     AAA  FFF        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                      VERSION 6.0                 
+                                                      RELEASE DATE MARCH 2006    
+
+                                                      TRAF SIMULATION MODEL
+
+                                                           DEVELOPED FOR
+
+                                                 U. S. DEPARTMENT OF TRANSPORTATION
+                                                   FEDERAL HIGHWAY ADMINISTRATION
+                                    FHWA OFFICE OF OPERATIONS RESEARCH, DEVELOPMENT AND TECHNOLOGY
+
+1                                       CARD FILE LIST
+0SEQ.# :----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+
+     1 :                                       6  182019                           0   1
+     2 :       1   0   0  10 97165909 0000  0              3 800    6799963041456717   2
+     3 :3600                                                                           3
+     4 :           1      60                                                           4
+     5 :   0       0   0   0   0   0   0   0   0   0   0   0                           5
+     6 : 102 118 456         4     014TTT        1047019          20  18  30  0       11
+     7 :8024 102             2     01            118              20  18      0       11
+     8 : 1037022 528         1     01                             20  18  30          11
+     9 :8027 135             2     01            134              20  18      0       11
+    10 : 105 1061040         2     01           8021              20  18  30  0       11
+    11 : 134 117 128         3     01            103              20  18  30  0       11
+    12 : 129 105  79         4     01TTTT        106              20  18  30  0       11
+    13 : 103 120 100         3     01            102              20  18  30  0       11
+    14 : 118 104 109         3     01            129              20  18  30  0       11
+    15 : 1297026 357         2     01                             20  18  30          11
+    16 : 117 103 967         4     017TTT        1207022          20  18  30  0       11
+    17 : 120 102 463         4     01TTTT       8024              20  18  30  0       11
+    18 : 135 134 990         4     019TTT        117    7025      20  18  30  0       11
+    19 :7021 120 582         1     019           102              20  18  30  0       11
+    20 : 1347025 439         2     01                             20  18  30          11
+    21 : 104 129 957         4     014TTT        1057026          20  18  30  0       11
+    22 :7024 105 425         2     01            106              20  18  30  0       11
+    23 :7023 117 392         2     01 9          103              20  18  30  0       11
+    24 : 1187019 650         1     01                             20  18  30          11
+    25 :7020 104 537         1     01                129          20  18  30  0       11
+    26 : 102 118   0   0  70   0                                                      21
+    27 :8024 102     100                                                              21
+    28 : 1037022     100                                                              21
+    29 :8027 135     100                                                              21
+    30 : 105 106     100                                                              21
+    31 : 134 117     100                                                              21
+    32 : 129 105     100                                                              21
+    33 : 103 120     100                                                              21
+    34 : 118 104     100                                                              21
+    35 : 1297026     100                                                              21
+    36 : 117 103   0   0  60   0                                                      21
+    37 : 120 102     100                                                              21
+    38 : 135 134   0   0   0  60                                                      21
+    39 :7021 120     100                                                              21
+    40 : 1347025     100                                                              21
+    41 : 104 129   0  80  20   0                                                      21
+    42 :7024 105     100                                                              21
+    43 :7023 117     100                                                              21
+    44 : 1187019     100                                                              21
+    45 :7020 104   0   0 100   0                                                      21
+    46 : 102    8024 120                                                              35
+    47 : 103     117                                                                  35
+    48 : 104    7020 118                                                              35
+    49 : 117     1347023                                                              35
+    50 : 106     105                                                                  35
+0SEQ.# :----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+
+1                                   CARD FILE LIST (CONT.)
+0SEQ.# :----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+
+    51 : 134     135                                                                  35
+    52 : 105    7024 129                                                              35
+    53 : 135    8027                                                                  35
+    54 : 129     104                                                                  35
+    55 : 118     102                                                                  35
+    56 : 120     1037021                                                              35
+    57 : 102 11                                                                       36
+    58 : 103 1                                                                        36
+    59 : 104 11                                                                       36
+    60 : 117 11                                                                       36
+    61 : 106 1                                                                        36
+    62 : 134 1                                                                        36
+    63 : 105 11                                                                       36
+    64 : 135 1                                                                        36
+    65 : 129 1                                                                        36
+    66 : 118 1                                                                        36
+    67 : 120 11                                                                       36
+    68 :8024 102 500   0   0  100                                                     50
+    69 :8027 135 500   0   0  100                                                     50
+    70 :   8                                                                         170
+    71 : 109 1088002  4550 3                         1                                19
+    72 : 128 110 111  3870 3 93  387103  387         110                              19
+    73 : 110 111 132  1470 3                         1                                19
+    74 : 132 114 115  5020 3 93  502102  300         110                              19
+    75 : 114 115 122  1340 3                         1                                19
+    76 :7025 124 115  5991 2                         1                                19
+    77 : 1147023      8271 2                         1                                19
+    78 : 119 109 108  1870 3 91  100                 1                                19
+    79 : 112 119 109  6860 3                         1                                19
+    80 : 122 1218003  4040 3 93  404                 1                                19
+    81 : 125 127 112  2420 3 91  200                 1                                19
+    82 : 124 115 122  3571 2                        10                                19
+    83 : 116 125 127  8150 3                         1                                19
+    84 : 123 116 125  4060 3 92  300                 1 9                              19
+    85 : 127 112 119  1100 3 92  100                 1 9                              19
+    86 : 115 122 121  4220 3 93  422101  200         1                                19
+    87 : 107 128 110  6230 5                        10                                19
+    88 : 1167021      4961 1                         1                                19
+    89 : 113 125 127  3811 1                         9                                19
+    90 :7019 126 119  2001 1                         1                                19
+    91 :7022 113 125  1481 1                         1                                19
+    92 : 112 1317020  4511 1                         1                                19
+    93 : 1317020      2071 1                         1                                19
+    94 :7026 130 111  5441 2                         1                                19
+    95 : 130 111 132  2431 2                        10                                19
+    96 : 126 119 109  2111 1                         9                                19
+    97 : 111 132 114  2520 3 91  100103  252         1                                19
+    98 : 1107024      7891 2                         1                                19
+    99 :8001 107 128     0 5                         1                                19
+   100 :8004 123 116     0 3                         1                                19
+0SEQ.# :----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+
+1                                   CARD FILE LIST (CONT.)
+0SEQ.# :----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+
+   101 : 109 108 0 0   0 11065                                               100      20
+   102 : 128 110 0 0   0 11065       2500      2500                          100      20
+   103 : 110 111 0 0   0 11065                                               100      20
+   104 : 132 114 0 0   0 11065       2500      2500                          100      20
+   105 : 114 115 0 0   0 11065                                               100      20
+   106 :7025 124 0 0   0 11065                                               100      20
+   107 : 1147023 0 0   0 11065                                               100      20
+   108 : 119 109 0 0   0 11065                                        431500 100      20
+   109 : 112 119 0 0   0 11065                                               100      20
+   110 : 122 121 0 0   0 11065                                               100      20
+   111 : 125 127 0 0   0 11065                                        431500 100      20
+   112 : 124 115 0 0   0 11065                                               100      20
+   113 : 116 125 0 0   0 11065                                               100      20
+   114 : 123 116 0 0   0 11065       2500      2500                          100      20
+   115 : 127 112 0 0   0 11065       2500      2500                          100      20
+   116 : 115 122 0 0   0 11065                                        431500 100      20
+   117 : 107 128 0 0   0 11065                                               100      20
+   118 : 1167021 0 0   0 11065                                               100      20
+   119 : 113 125 0 0   0 11065                                               100      20
+   120 :7019 126 0 0   0 11065                                               100      20
+   121 :7022 113 0 0   0 11065                                               100      20
+   122 : 112 131 0 0   0 11065                                               100      20
+   123 : 1317020 0 0   0 11065                                               100      20
+   124 :7026 130 0 0   0 11065                                               100      20
+   125 : 130 111 0 0   0 11065                                               100      20
+   126 : 126 119 0 0   0 11065                                               100      20
+   127 : 111 132 0 0   0 11065                                        431500 100      20
+   128 : 1107024 0 0   0 11065                                               100      20
+   129 :8001 107 0 0   0 11065                                                        20
+   130 :8004 123 0 0   0 11065                                                        20
+   131 : 109 1088002 100                                                              25
+   132 : 128 110 111  507024  50                                                      25
+   133 : 110 111 132 100                                                              25
+   134 : 132 114 115  407023  60                                                      25
+   135 : 114 115 122 100                                                              25
+   136 :7025 124 115 100                                                              25
+   137 : 119 109 108 100                                                              25
+   138 : 112 119 109 100                                                              25
+   139 : 122 1218003 100                                                              25
+   140 : 125 127 112 100                                                              25
+   141 : 124 115 122 100                                                              25
+   142 : 116 125 127 100                                                              25
+   143 : 123 116 125  807021  20                                                      25
+   144 : 127 112 119  50 131  50                                                      25
+   145 : 115 122 121 100                                                              25
+   146 : 107 128 110 100                                                              25
+   147 : 113 125 127 100                                                              25
+   148 :7019 126 119 100                                                              25
+   149 :7022 113 125 100                                                              25
+   150 : 112 1317020 100                                                              25
+0SEQ.# :----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+
+1                                   CARD FILE LIST (CONT.)
+0SEQ.# :----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+
+   151 :7026 130 111 100                                                              25
+   152 : 130 111 132 100                                                              25
+   153 : 126 119 109 100                                                              25
+   154 : 111 132 114 100                                                              25
+   155 :8001 107 128 100                                                              25
+   156 :8004 123 116 100                                                              25
+   157 :8001 107 750   0   0  100                                    20 20 20 20 20   50
+   158 :8004 123 470   0   0  100                                    34 33 33         50
+   159 :   0                                                                         170
+   160 :8024   15065   27820                                                         195
+   161 :8027   12216   27701                                                         195
+   162 :8021   12203   27794                                                         195
+   163 :8001   13748   29275                                                         195
+   164 :8002   13770   29319                                                         195
+   165 :8003   14315   26327                                                         195
+   166 :8004   14413   26338                                                         195
+   167 : 102   14941   27817                                                         195
+   168 : 103   14380   27770                                                         195
+   169 : 104   14377   27832                                                         195
+   170 : 112   14305   28006                                                         195
+   171 : 121   14345   26448                                                         195
+   172 : 114   14347   27406                                                         195
+   173 : 128   14107   28671                                                         195
+   174 : 124   14017   27339                                                         195
+   175 : 122   14360   26852                                                         195
+   176 : 127   14328   27898                                                         195
+   177 : 131   14282   28456                                                         195
+   178 : 111   14216   28148                                                         195
+   179 : 123   14396   26440                                                         195
+   180 : 132   14242   27897                                                         195
+   181 : 107   13808   29217                                                         195
+   182 : 119   14169   28678                                                         195
+   183 : 113   14477   27294                                                         195
+   184 : 108   13864   29243                                                         195
+   185 : 110   14186   28292                                                         195
+   186 : 116   14402   26846                                                         195
+   187 : 115   14368   27274                                                         195
+   188 : 125   14370   27660                                                         195
+   189 : 130   13979   28203                                                         195
+   190 : 126   14322   28532                                                         195
+   191 : 109   14081   28843                                                         195
+   192 :7025   13419   27308                                                         195
+   193 :7021   14710   27235                                                         195
+   194 : 117   13414   27734                                                         195
+   195 : 106   12302   27780                                                         195
+   196 : 134   13286   27726                                                         195
+   197 : 105   13342   27810                                                         195
+   198 : 135   12296   27708                                                         195
+   199 : 129   13420   27819                                                         195
+   200 : 118   14486   27839                                                         195
+0SEQ.# :----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+
+1                                   CARD FILE LIST (CONT.)
+0SEQ.# :----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+
+   201 : 120   14480   27770                                                         195
+   202 :7026   13436   28176                                                         195
+   203 :7019   14517   28488                                                         195
+   204 :7022   14625   27302                                                         195
+   205 :7024   13399   28231                                                         195
+   206 :7023   13521   27357                                                         195
+   207 :7020   14466   28362                                                         195
+   208 :7020 104 501                                                                 196
+   209 : 1317020 801                                                                 196
+   210 :   1   0   0                                                                 210
+0SEQ.# :----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+
+
+                                                        TRAF SIMULATION MODEL
+
+                                                           DEVELOPED FOR
+
+                                                 U. S. DEPARTMENT OF TRANSPORTATION
+                                                   FEDERAL HIGHWAY ADMINISTRATION
+                                    FHWA OFFICE OF OPERATIONS RESEARCH, DEVELOPMENT AND TECHNOLOGY
+
+1
+0
+
+
+                                                   DATE =  6/18/2019
+0                                                  USER =                                     
+0                                                AGENCY =                         
+
+                                                        RUN CONTROL DATA
+
+
+                      VALUE                         RUN PARAMETERS AND OPTIONS
+
+0                         0     RUN IDENTIFICATION NUMBER
+                          1     RUN TYPE CODE = ( 1, 2, 3) TO RUN (SIMULATION, ASSIGNMENT, BOTH)
+                                                (-1,-2,-3) TO CHECK (SIMULATION, ASSIGNMENT, BOTH) ONLY
+
+                          0     FRESIM OFFLINE INCIDENT DETECTION CODE = (0, 1) IF OFFLINE INCIDENT DETECTION
+                                (IS NOT, IS) BEING PERFORMED
+                                FRESIM ENVIRONMENTAL OPTIONS
+                                ----------------------------
+                          0     FUEL/EMISSION RATE TABLES ARE NOT PRINTED                     
+                          0     SIMULATION:  PERFORMED                              ENVIRONMENTAL MEASURES:  CALCULATED          
+                                RATE TABLES: EMBEDDED                               TRAJECTORY FILE:         NOT WRITTEN         
+                                NETSIM ENVIRONMENTAL OPTIONS
+                                ----------------------------
+                          0     FUEL/EMISSION RATE TABLES ARE NOT PRINTED                     
+                          0     SIMULATION:  PERFORMED                              ENVIRONMENTAL MEASURES:  CALCULATED          
+                                RATE TABLES: EMBEDDED                               TRAJECTORY FILE:         NOT WRITTEN         
+                          0     CODE   = (0,1,2) FOR UNIFORM DISTRIBUTION, NORMAL DISTRIBUTION, ERLANG DISTRIBUTION
+                          0     INITIALIZATION CODE (0,1) = (DO NOT, DO) FORCE FULL INITIALIZATION PERIOD
+                          0     INPUT  UNITS CODE = (0,1) IF INPUT IS IN (ENGLISH, METRIC) UNITS
+                          0     OUTPUT UNITS CODE = (0,1,2,3) IF OUTPUT IS IN (SAME AS INPUT, ENGLISH, METRIC, BOTH) UNITS
+                        800     CLOCK TIME AT START OF SIMULATION (HHMM)
+                          0     SIGNAL TRANSITION CODE = (0,1,2,3) IF(NO, IMMEDIATE, 2-CYCLE, 3-CYCLE) TRANSITION WAS REQUESTED
+                   41456717     RANDOM NUMBER SEED
+                   67999630     RANDOM NUMBER SEED TO GENERATE TRAFFIC STREAM FOR NETSIM OR LEVEL I SIMULATION
+                   97165909     RANDOM NUMBER SEED TO GENERATE EMISSION HEADWAYS FOR NETSIM SIMULATION
+                       3600     DURATION (SEC) OF TIME PERIOD NO.  1
+                         60     LENGTH OF A TIME INTERVAL, SECONDS
+                         10     FRESIM TIME STEP DURATION IN TENTHS-OF-A-SECOND
+                         10     MAXIMUM INITIALIZATION TIME, NUMBER OF TIME INTERVALS
+                          0     NUMBER OF TIME INTERVALS BETWEEN SUCCESSIVE STANDARD OUTPUTS
+                          0     TIME INTERMEDIATE OUTPUT WILL BEGIN AT INTERVALS OF    0 SECS. FOR    0 SECS. FOR MICROSCOPIC MODELS
+                          0     NETSIM MOVEMENT-SPECIFIC OUTPUT CODE = (0,1) (IF NOT, IF) REQUESTED FOR NETSIM SUBNETWORK
+1***********************************************************************************************************************************
+
+                                                 TIME PERIOD   1 - NETSIM DATA
+
+ ***********************************************************************************************************************************
+1
+
+                                                            NETSIM LINKS
+0                      -LANES-         -CHANNEL-
+
+                        F               C
+                        U               U                                  LOST  Q DIS   FREE                LANE
+              LENGTH    L PKT GRD LINK  R         DESTINATION NODE   OPP.  TIME  HDWY.   SPEED    RTOR PED  ALIGN    STREET
+     LINK     FT / M    L L R PCT TYPE  B234567  LEFT THRU RGHT DIAG NODE  SEC   SEC    MPH/KMPH  CODE CODE -MENT     NAME
+
+ ( 102, 118)  456/ 139  4 0 0  0   1    4TTT000     0  104 7019    0    0  2.0    1.8    30/ 48     0   0    1-1*              
+ (8024, 102)    0/   0  2 0 0  0   1    0000000     0  118    0    0    0  2.0    1.8     0/  0     0   0    1-1*              
+ ( 103,7022)  528/ 161  1 0 0  0   1    0000000     0    0    0    0    0  2.0    1.8    30/ 48     0   0    1-1*              
+ (8027, 135)    0/   0  2 0 0  0   1    0000000     0  134    0    0    0  2.0    1.8     0/  0     0   0    1-1*              
+ ( 105, 106) 1040/ 317  2 0 0  0   1    0000000     0 8021    0    0    0  2.0    1.8    30/ 48     0   0    1-1*              
+ ( 134, 117)  128/  39  3 0 0  0   1    0000000     0  103    0    0    0  2.0    1.8    30/ 48     0   0    1-1*              
+ ( 129, 105)   79/  24  4 0 0  0   1    TTTT000     0  106    0    0    0  2.0    1.8    30/ 48     0   0    1-1*              
+ ( 103, 120)  100/  30  3 0 0  0   1    0000000     0  102    0    0    0  2.0    1.8    30/ 48     0   0    1-1*              
+ ( 118, 104)  109/  33  3 0 0  0   1    0000000     0  129    0    0    0  2.0    1.8    30/ 48     0   0    1-1*              
+ ( 129,7026)  357/ 109  2 0 0  0   1    0000000     0    0    0    0    0  2.0    1.8    30/ 48     0   0    1-1*              
+ ( 117, 103)  967/ 295  4 0 0  0   1    7TTT000     0  120 7022    0    0  2.0    1.8    30/ 48     0   0    1-1*              
+ ( 120, 102)  463/ 141  4 0 0  0   1    TTTT000     0 8024    0    0    0  2.0    1.8    30/ 48     0   0    1-1*              
+ ( 135, 134)  990/ 302  4 0 0  0   1    9TTT000     0  117    0 7025    0  2.0    1.8    30/ 48     0   0    1-1*              
+ (7021, 120)  582/ 177  1 0 0  0   1    9000000     0  102    0    0    0  2.0    1.8    30/ 48     0   0    1-1*              
+ ( 134,7025)  439/ 134  2 0 0  0   1    0000000     0    0    0    0    0  2.0    1.8    30/ 48     0   0    1-1*              
+ ( 104, 129)  957/ 292  4 0 0  0   1    4TTT000     0  105 7026    0    0  2.0    1.8    30/ 48     0   0    1-1*              
+ (7024, 105)  425/ 130  2 0 0  0   1    0000000     0  106    0    0    0  2.0    1.8    30/ 48     0   0    1-1*              
+ (7023, 117)  392/ 119  2 0 0  0   1    0900000     0  103    0    0    0  2.0    1.8    30/ 48     0   0    1-1*              
+ ( 118,7019)  650/ 198  1 0 0  0   1    0000000     0    0    0    0    0  2.0    1.8    30/ 48     0   0    1-1*              
+ (7020, 104)  537/ 164  1 0 0  0   1    0000000     0    0  129    0    0  2.0    1.8    30/ 48     0   0    1-1*              
+
+
+                                             * INDICATES DEFAULT VALUES WERE SPECIFIED
+
+
+
+              LINK TYPE                 LANE CHANNELIZATION                    RTOR                    PEDESTRIAN
+                                               CODES                           CODES                      CODES
+
+          IDENTIFIES THE               0  UNRESTRICTED                 0  RTOR PERMITTED           0  NO PEDESTRIANS
+        DISTRIBUTION USED FOR          1  LEFT TURNS ONLY              1  RTOR PROHIBITED          1  LIGHT
+        QUEUE DISCHARGE AND            2  BUSES ONLY                                               2  MODERATE
+        START-UP LOST TIME             3  CLOSED                                                   3  HEAVY
+        CHARACTERISTICS.               4  RIGHT TURNS ONLY
+                                       5  CAR - POOLS
+                                       6  CAR - POOLS + BUSES
+                                       7  RIGHT TURNS + RIGHT DIAGONAL AND/OR THROUGH
+                                       8  LEFT TURNS + LEFT DIAGONAL AND/OR THROUGH
+                                       9  ALL PERMITTED MOVEMENTS WITH RESPECT TO
+                                          THE GEOMETRY AND ADJACENT LANE CHANNELIZATIONS
+                                       D  DIAGONAL TRAFFIC ONLY
+                                       T  THROUGH TRAFFIC ONLY
+
+                  TOTAL LINKS:   20
+                  TOTAL NON-ENTRY NODES:   11 (ALLOWED: 8999)
+1
+
+                                                      NETSIM TURNING MOVEMENT DATA
+
+                               TURN MOVEMENT PERCENTAGES            TURN MOVEMENT POSSIBLE           POCKET LENGTH (IN FEET/METERS)
+          LINK                LEFT THROUGH RIGHT DIAGONAL         LEFT THROUGH RIGHT DIAGONAL             LEFT          RIGHT
+
+      ( 102, 118)                0     0    100      0             NO    YES    YES    NO                  0/    0       0/    0
+      (8024, 102)                0   100      0      0             NO    YES    NO     NO                  0/    0       0/    0
+      ( 103,7022)                0   100      0      0             NO    YES    NO     NO                  0/    0       0/    0
+      (8027, 135)                0   100      0      0             NO    YES    NO     NO                  0/    0       0/    0
+      ( 105, 106)                0   100      0      0             NO    YES    NO     NO                  0/    0       0/    0
+      ( 134, 117)                0   100      0      0             NO    YES    NO     NO                  0/    0       0/    0
+      ( 129, 105)                0   100      0      0             NO    YES    NO     NO                  0/    0       0/    0
+      ( 103, 120)                0   100      0      0             NO    YES    NO     NO                  0/    0       0/    0
+      ( 118, 104)                0   100      0      0             NO    YES    NO     NO                  0/    0       0/    0
+      ( 129,7026)                0   100      0      0             NO    YES    NO     NO                  0/    0       0/    0
+      ( 117, 103)                0     0    100      0             NO    YES    YES    NO                  0/    0       0/    0
+      ( 120, 102)                0   100      0      0             NO    YES    NO     NO                  0/    0       0/    0
+      ( 135, 134)                0     0      0    100             NO    YES    NO     YES                 0/    0       0/    0
+      (7021, 120)                0   100      0      0             NO    YES    NO     NO                  0/    0       0/    0
+      ( 134,7025)                0   100      0      0             NO    YES    NO     NO                  0/    0       0/    0
+      ( 104, 129)                0    80     20      0             NO    YES    YES    NO                  0/    0       0/    0
+      (7024, 105)                0   100      0      0             NO    YES    NO     NO                  0/    0       0/    0
+      (7023, 117)                0   100      0      0             NO    YES    NO     NO                  0/    0       0/    0
+      ( 118,7019)                0   100      0      0             NO    YES    NO     NO                  0/    0       0/    0
+      (7020, 104)                0     0    100      0             NO    NO     YES    NO                  0/    0       0/    0
+1                                  SPECIFIED FIXED-TIME SIGNAL CONTROL, AND SIGN CONTROL, CODES
+0                                                 NODE  102 IS UNDER SIGN CONTROL
+0                INTERVAL    DURATION     +- - - - - - - - - - - - - - - APPROACHES - - - - - - - - - - - - - - - +
+                 NUMBER   (SEC)  (PCT)   (8024, 102)    ( 120, 102)
+                    1        0    100         1              1
+0                                                 NODE  103 IS UNDER SIGN CONTROL
+0                INTERVAL    DURATION     +- - - - - - - - - - - - - - - APPROACHES - - - - - - - - - - - - - - - +
+                 NUMBER   (SEC)  (PCT)   ( 117, 103)
+                    1        0    100         1
+0                                                 NODE  104 IS UNDER SIGN CONTROL
+0                INTERVAL    DURATION     +- - - - - - - - - - - - - - - APPROACHES - - - - - - - - - - - - - - - +
+                 NUMBER   (SEC)  (PCT)   (7020, 104)    ( 118, 104)
+                    1        0    100         1              1
+0                                                 NODE  105 IS UNDER SIGN CONTROL
+0                INTERVAL    DURATION     +- - - - - - - - - - - - - - - APPROACHES - - - - - - - - - - - - - - - +
+                 NUMBER   (SEC)  (PCT)   (7024, 105)    ( 129, 105)
+                    1        0    100         1              1
+0                                                 NODE  106 IS UNDER SIGN CONTROL
+0                INTERVAL    DURATION     +- - - - - - - - - - - - - - - APPROACHES - - - - - - - - - - - - - - - +
+                 NUMBER   (SEC)  (PCT)   ( 105, 106)
+                    1        0    100         1
+0                                                 NODE  117 IS UNDER SIGN CONTROL
+0                INTERVAL    DURATION     +- - - - - - - - - - - - - - - APPROACHES - - - - - - - - - - - - - - - +
+                 NUMBER   (SEC)  (PCT)   ( 134, 117)    (7023, 117)
+                    1        0    100         1              1
+0                                                 NODE  118 IS UNDER SIGN CONTROL
+0                INTERVAL    DURATION     +- - - - - - - - - - - - - - - APPROACHES - - - - - - - - - - - - - - - +
+                 NUMBER   (SEC)  (PCT)   ( 102, 118)
+                    1        0    100         1
+0                                                 NODE  120 IS UNDER SIGN CONTROL
+0                INTERVAL    DURATION     +- - - - - - - - - - - - - - - APPROACHES - - - - - - - - - - - - - - - +
+                 NUMBER   (SEC)  (PCT)   ( 103, 120)    (7021, 120)
+                    1        0    100         1              1
+0                                                 NODE  129 IS UNDER SIGN CONTROL
+0                INTERVAL    DURATION     +- - - - - - - - - - - - - - - APPROACHES - - - - - - - - - - - - - - - +
+                 NUMBER   (SEC)  (PCT)   ( 104, 129)
+                    1        0    100         1
+1
+0                                                 NODE  134 IS UNDER SIGN CONTROL
+0                INTERVAL    DURATION     +- - - - - - - - - - - - - - - APPROACHES - - - - - - - - - - - - - - - +
+                 NUMBER   (SEC)  (PCT)   ( 135, 134)
+                    1        0    100         1
+0                                                 NODE  135 IS UNDER SIGN CONTROL
+0                INTERVAL    DURATION     +- - - - - - - - - - - - - - - APPROACHES - - - - - - - - - - - - - - - +
+                 NUMBER   (SEC)  (PCT)   (8027, 135)
+                    1        0    100         1
+1                                                   INTERPRETATION OF SIGNAL CODES
+
+
+                                           0          YIELD OR AMBER
+
+                                           1          GREEN
+
+                                           2          RED
+
+                                           3          RED WITH GREEN RIGHT ARROW
+
+                                           4          RED WITH GREEN LEFT ARROW
+
+                                           5          STOP
+
+                                           6          RED WITH GREEN DIAGONAL ARROW
+
+                                           7          NO TURNS-GREEN THRU ARROW
+
+                                           8          RED WITH LEFT AND RIGHT GREEN ARROW
+
+                                           9          NO LEFT TURN-GREEN THRU AND RIGHT
+1                                     TRAFFIC CONTROL TABLE - SIGNS AND FIXED TIME SIGNALS
+
+     CONTROL CODES  GO   = PROTECTED
+                    NOGO = NOT PERMITTED
+                    AMBR = AMBER
+                    PERM = PERMITTED NOT PROTECTED
+                    PROT = PROTECTED
+                    STOP = STOP SIGN
+                    YLD  = YIELD SIGN
+
+
+
+       NODE  102      SIGN CONTROL
+
+ INTERVAL DURATION    -------------------------------------------   APPROACHES   --------------------------------------------
+                          (8024, 102)          ( 120, 102)
+                      LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  
+       1        0           GO                   GO           
+
+
+
+       NODE  103      SIGN CONTROL
+
+ INTERVAL DURATION    -------------------------------------------   APPROACHES   --------------------------------------------
+                          ( 117, 103)
+                      LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  
+       1        0           GO   GO      
+
+
+
+       NODE  104      SIGN CONTROL
+
+ INTERVAL DURATION    -------------------------------------------   APPROACHES   --------------------------------------------
+                          (7020, 104)          ( 118, 104)
+                      LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  
+       1        0                GO              GO           
+
+
+
+       NODE  105      SIGN CONTROL
+
+ INTERVAL DURATION    -------------------------------------------   APPROACHES   --------------------------------------------
+                          (7024, 105)          ( 129, 105)
+                      LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  
+       1        0           GO                   GO           
+
+
+
+       NODE  106      SIGN CONTROL
+
+ INTERVAL DURATION    -------------------------------------------   APPROACHES   --------------------------------------------
+                          ( 105, 106)
+                      LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  
+       1        0           GO           
+1
+
+
+
+       NODE  117      SIGN CONTROL
+
+ INTERVAL DURATION    -------------------------------------------   APPROACHES   --------------------------------------------
+                          ( 134, 117)          (7023, 117)
+                      LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  
+       1        0           GO                   GO           
+
+
+
+       NODE  118      SIGN CONTROL
+
+ INTERVAL DURATION    -------------------------------------------   APPROACHES   --------------------------------------------
+                          ( 102, 118)
+                      LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  
+       1        0           GO   GO      
+
+
+
+       NODE  120      SIGN CONTROL
+
+ INTERVAL DURATION    -------------------------------------------   APPROACHES   --------------------------------------------
+                          ( 103, 120)          (7021, 120)
+                      LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  
+       1        0           GO                   GO           
+
+
+
+       NODE  129      SIGN CONTROL
+
+ INTERVAL DURATION    -------------------------------------------   APPROACHES   --------------------------------------------
+                          ( 104, 129)
+                      LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  
+       1        0           GO   GO      
+
+
+
+       NODE  134      SIGN CONTROL
+
+ INTERVAL DURATION    -------------------------------------------   APPROACHES   --------------------------------------------
+                          ( 135, 134)
+                      LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  
+       1        0           GO        GO 
+
+
+
+       NODE  135      SIGN CONTROL
+
+ INTERVAL DURATION    -------------------------------------------   APPROACHES   --------------------------------------------
+                          (8027, 135)
+                      LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  LEFT THRU RITE DIAG  
+       1        0           GO           
+
+
+                                                ENTRY LINK VOLUMES
+
+                      LINK              FLOW RATE      TRUCKS      CAR POOLS    HOV VIOLATORS
+                                        (VEH/HOUR)    (PERCENT)    (PERCENT)     (PERCENT)
+
+                   (8024, 102)              500            0            0          1.00
+                   (8027, 135)              500            0            0          1.00
+
+
+                                                NETSIM VEHICLE TYPE SPECIFICATIONS
+
+                     VEHICLE      LENGTH      Q DSCHG HDWY                  FLEET COMPONENT PERCENTAGES    PERF.
+                      TYPE     FEET/METERS    FACTOR (PCT)    AVG. OCCUP.    AUTO   TRUCK  CARPOOL  BUS    INDEX
+                       1**     16.0/  4.9         100            1.3          75      0      0      0        2
+                       2**     35.0/ 10.7         120            1.2           0    100      0      0        3
+                       3**     16.0/  4.9         100            2.5           0      0    100      0        2
+                       4**     40.0/ 12.2         120           25.0           0      0      0    100        7
+                       5**     14.0/  4.3         100            1.3          25      0      0      0        1
+                       6**     53.0/ 16.2         120            1.2           0      0      0      0        4
+                       7**     53.0/ 16.2         120            1.2           0      0      0      0        5
+                       8**     64.0/ 19.5         120            1.2           0      0      0      0        6
+                       9**     14.0/  4.3         100            2.5           0      0      0      0        1
+ 
+                             ** INDICATES THAT ALL PARAMETERS FOR VEHICLE TYPE ASSUME DEFAULT VALUES
+1
+
+                                                   DEFAULT  LINK  GEOMETRIC  DATA
+
+                                           WIDTH OF LANES                          12  FEET
+
+                                           LONGITUDINAL DISTANCE FROM THE STOP       4 FEET
+                                           LINE TO THE NEAR CURB
+
+                                           FORWARD SIGHT DISTANCE AT STOP LINE   1000  FEET
+1
+
+
+                                                            LANE   CHANGE   DATA
+
+                                          PARAMETERS                      VALUE                  UNITS
+                                                                    ENGLISH / METRIC 
+
+         DURATION OF LANE CHANGE MANEUVER                              3*                     SECONDS
+
+         MEAN DRIVER REACTION TIME                                    10*                     TENTHS OF A SECOND
+
+         TIME REQUIRED FOR SUCCESSIVE LANE CHANGES                    20*                     TENTHS OF A SECOND
+
+         DECELERATION AT BEGINNING OF LANE CHANGE MANEUVER             5*   /      2          FEET [METERS] / SECOND**2
+
+         DIFFERENCE IN VEHICLE'S DECELERATION OVER THE DISTANCE
+            BETWEEN ITS POSITION WHEN IT BEGINS TO RESPOND TO AN
+            OBSTRUCTION AND THE POSITION OF THE OBSTRUCTION -
+
+                 FOR MANDATORY LANE CHANGE:                           10*   /      3          FEET [METERS] / SECOND**2
+                 FOR DISCRETIONARY LANE CHANGE:                        5*   /      2          FEET [METERS] / SECOND**2
+
+         PANIC DECELERATION RATE OF LEAD VEHICLE FOR
+         COMPUTATION OF CAR-FOLLOWING LAW                             12*   /      4          FEET [METERS] / SECOND**2
+
+         PANIC DECELERATION RATE OF FOLLOWER VEHICLE FOR
+         COMPUTATION OF CAR-FOLLOWING LAW                             12*   /      4          FEET [METERS] / SECOND**2
+
+         DRIVER TYPE FACTOR USED TO COMPUTE DRIVER AGGRESSIVENESS     25*
+
+         URGENCY THRESHOLD                                             2*   /      1          10 * SECONDS**2 / FEET [METERS]
+
+         SAFETY FACTOR FOR COMPUTATION OF PERCEIVED RISK OF LANE
+         CHANGE                                                        8*                     FACTOR * 10
+
+         PERCENT OF DRIVERS WHO COOPERATE WITH A LANE CHANGER         50*                     %
+
+         HEADWAY BELOW WHICH ALL DRIVERS WILL ATTEMPT TO CHANGE
+         LANES                                                        20*                     TENTHS OF A SECOND
+
+         HEADWAY ABOVE WHICH NO DRIVERS WILL ATTEMPT TO CHANGE
+         LANES                                                        50*                     TENTHS OF A SECOND
+
+         FORWARD DISTANCE SCANNED BY DRIVER FOR A TURN MOVEMENT /
+         BUS STATION IN ORDER TO ASSESS NEED FOR A LANE CHANGE       300*   /     91          FEET / [METERS]
+
+                                              * INDICATES DEFAULT VALUES WERE SPECIFIED
+1***********************************************************************************************************************************
+
+                                                 TIME PERIOD   1 - FRESIM DATA
+
+ ***********************************************************************************************************************************
+1                                                    FRESIM LINK CHARACTERISTICS
+                                                     ---------------------------
+
+
+                          ---------- AUXILIARY LANE ---------
+
+                          --- ONE --- --- TWO --- -- THREE --              G
+             T             T           T           T                       R                         RIGHT  FREE
+             Y        NO.  Y           Y           Y          THRU CURV    A        PAVE   TRUCK   LANE OF  FLOW  QUEUE
+             P LNGTH THRU  P    LNGTH  P    LNGTH  P    LNGTH DEST RADIUS  D  SUPER MENT RESTRAINT SEP PAIR SPEED HDWY
+    LINK     E  (FT) LANES E ID (FT)   E ID (FT)   E ID (FT)  NODE  (FT)   E  ELEV  CODE CODE LANE   1   2  (MPH) (SEC)  LINK NAME
+ ----------- - ----- ----- - -- -----  - -- -----  - -- ----- ---- ------ --- ----- ---- --------- -------- ----- ----- ------------
+ ( 109, 108) F   455   3                                      8002    0    0    0    1*   0                  65    1.0              
+ ( 128, 110) F   387   3   F  9   387  F 10   387              111    0    0    0    1*   0                  65    1.0              
+ ( 110, 111) F   147   3                                       132    0    0    0    1*   0                  65    1.0              
+ ( 132, 114) F   502   3   F  9   502  D 10   300              115    0    0    0    1*   0                  65    1.0              
+ ( 114, 115) F   134   3                                       122    0    0    0    1*   0                  65    1.0              
+ (7025, 124) R   599   2                                       115    0    0    0    1*   0                  65    1.0              
+ ( 114,7023) R   827   2                                              0    0    0    1*   0                  65    1.0              
+ ( 119, 109) F   187   3   A  9   100                          108    0    0    0    1*   0                  65    1.0              
+ ( 112, 119) F   686   3                                       109    0    0    0    1*   0                  65    1.0              
+ ( 122, 121) F   404   3   F  9   404                         8003    0    0    0    1*   0                  65    1.0              
+ ( 125, 127) F   242   3   A  9   200                          112    0    0    0    1*   0                  65    1.0              
+ ( 124, 115) R   357   2                                       122    0    0    0    1*   0                  65    1.0              
+ ( 116, 125) F   815   3                                       127    0    0    0    1*   0                  65    1.0              
+ ( 123, 116) F   406   3   D  9   300                          125    0    0    0    1*   0                  65    1.0              
+ ( 127, 112) F   110   3   D  9   100                          119    0    0    0    1*   0                  65    1.0              
+ ( 115, 122) F   422   3   F  9   422  A 10   200              121    0    0    0    1*   0                  65    1.0              
+ ( 107, 128) F   623   5                                       110    0    0    0    1*   0                  65    1.0              
+ ( 116,7021) R   496   1                                              0    0    0    1*   0                  65    1.0              
+ ( 113, 125) R   381   1                                       127    0    0    0    1*   0                  65    1.0              
+ (7019, 126) R   200   1                                       119    0    0    0    1*   0                  65    1.0              
+ (7022, 113) R   148   1                                       125    0    0    0    1*   0                  65    1.0              
+ ( 112, 131) R   451   1                                      7020    0    0    0    1*   0                  65    1.0              
+ ( 131,7020) R   207   1                                              0    0    0    1*   0                  65    1.0              
+ (7026, 130) R   544   2                                       111    0    0    0    1*   0                  65    1.0              
+ ( 130, 111) R   243   2                                       132    0    0    0    1*   0                  65    1.0              
+ ( 126, 119) R   211   1                                       109    0    0    0    1*   0                  65    1.0              
+ ( 111, 132) F   252   3   A  9   100  F 10   252              114    0    0    0    1*   0                  65    1.0              
+ ( 110,7024) R   789   2                                              0    0    0    1*   0                  65    1.0              
+ (8001, 107) F     0   5                                       128    0    0    0    1*   0                  65    1.0              
+ (8004, 123) F     0   3                                       116    0    0    0    1*   0                  65    1.0              
+
+                  TOTAL LINKS:   32
+
+      * INDICATES THAT THE DEFAULT VALUE IS USED
+
+
+      LINK TYPE CODE                AUXILIARY LANE TYPE CODE               PAVEMENT CODE             TRUCK RESTRAINT CODE
+
+       F FREEWAY LINK                 A ACCELERATION LANE                  1 DRY CONCRETE            0 TRUCKS ARE UNRESTRICTED
+       R RAMP LINK                    D DECELERATION LANE                  2 WET CONCRETE            1 TRUCKS ARE BIASED TO
+                                      F FULL AUXILIARY LANE                3 DRY ASPHALT               CERTAIN LANE(S)
+                                                                           4 WET ASPHALT             2 TRUCKS ARE RESTRICTED TO
+                                                                                                       CERTAIN LANES(S)
+
+
+                                          CAR FOLLOWING SENSITIVITY MULTIPLIERS
+
+                                                 LINK ID       MULTIPLIER
+                                              -------------  -------------
+                        (NO MODIFIERS WERE PROVIDED - MULTIPLIERS FOR ALL LINKS ARE DEFAULTED TO 1.0)
+
+
+                                            ANTICIPATORY LANE CHANGE PARAMETERS
+
+                                             LINK ID     MIN AVE SPEED  DISTANCE
+                                          -------------  -------------  --------
+                                           ( 115, 122)        63.07       1500.0
+                                           ( 125, 127)        63.07       1500.0
+                                           ( 111, 132)        63.07       1500.0
+                                           ( 119, 109)        63.07       1500.0
+
+
+
+                                                     FRESIM TURNING MOVEMENTS
+                                                    --------------------------
+
+                                  ---------- MAIN-LINE TRAFFIC ---------     ----------- EXITING TRAFFIC ----------
+
+                                   DOWNSTREAM NODE NO.
+                                    OF THE MAIN-LINE                            DOWNSTREAM NODE
+                    LINK             RECEIVING LINK          PERCENTAGE       NO. OF THE OFF-RAMP       PERCENTAGE
+               --------------     ---------------------     ------------     ---------------------     ------------
+                ( 109,  108)               8002                100.0                                           
+                ( 128,  110)                111                 50.0                  7024                 50.0
+                ( 110,  111)                132                100.0                                           
+                ( 132,  114)                115                 40.0                  7023                 60.0
+                ( 114,  115)                122                100.0                                           
+                (7025,  124)                115                100.0                                           
+                ( 119,  109)                108                100.0                                           
+                ( 112,  119)                109                100.0                                           
+                ( 122,  121)               8003                100.0                                           
+                ( 125,  127)                112                100.0                                           
+                ( 124,  115)                122                100.0                                           
+                ( 116,  125)                127                100.0                                           
+                ( 123,  116)                125                 80.0                  7021                 20.0
+                ( 127,  112)                119                 50.0                   131                 50.0
+                ( 115,  122)                121                100.0                                           
+                ( 107,  128)                110                100.0                                           
+                ( 113,  125)                127                100.0                                           
+                (7019,  126)                119                100.0                                           
+                (7022,  113)                125                100.0                                           
+                ( 112,  131)               7020                100.0                                           
+                (7026,  130)                111                100.0                                           
+                ( 130,  111)                132                100.0                                           
+                ( 126,  119)                109                100.0                                           
+                ( 111,  132)                114                100.0                                           
+                (8001,  107)                128                100.0                                           
+                (8004,  123)                116                100.0                                           
+
+
+                                                         FRESIM LINK VOLUME
+                                                        --------------------
+
+                                  FLOW RATE             PERCENT            PERCENT         PERCENT HOV
+              LINK                (VEH/HOUR)            TRUCKS             CARPOOL         LANE VIOLATORS
+         --------------          ------------          ---------          ---------        --------------
+          (8001,  107)               750                    0                  0               1.00
+          (8004,  123)               470                    0                  0               1.00
+*****   WARNING   -  702 - The specified position for the off-ramp warning sign, for the off-ramp at node 112 is 2500 feet upstream from the off-ramp gore.  This is upstream from the start of the freeway.  Therefore, the warning sign is positioned at the start of the freeway 1573 feet upstream from the off-ramp.
+ 
+*****   WARNING   -  702 - The specified position for the off-ramp warning sign, for the off-ramp at node 116 is 2500 feet upstream from the off-ramp gore.  This is upstream from the start of the freeway.  Therefore, the warning sign is positioned at the start of the freeway 406 feet upstream from the off-ramp.
+ 
+*****   WARNING   -  702 - The specified position for the off-ramp warning sign, for the off-ramp at node 114 is 2500 feet upstream from the off-ramp gore.  This is upstream from the start of the freeway.  Therefore, the warning sign is positioned at the start of the freeway 1911 feet upstream from the off-ramp.
+ 
+*****   WARNING   -  702 - The specified position for the off-ramp warning sign, for the off-ramp at node 110 is 2500 feet upstream from the off-ramp gore.  This is upstream from the start of the freeway.  Therefore, the warning sign is positioned at the start of the freeway 1010 feet upstream from the off-ramp.
+ 
+1
+
+
+                                                   FRESIM LANE ALIGNMENT TABLE
+                                                  -----------------------------
+
+                                            DISTANCE
+                                              FROM             UPSTREAM FEEDING LANE NUMBER
+                                   LINK    UPST. NODE   ---------------------------------------------   REASON
+                        LINK       TYPE      (FT)        1   2   3   4   5   6   7   8   9   10   11     CODE
+                    ------------  ------  ------------  --- --- --- --- --- --- --- --- --- ---- ----  --------
+                    ( 126,  119)    R         211.0      9   -   -   -   -   -   -   -   -    -    -      1
+                    ( 127,  112)    F         110.0      1   2   3   -   -   -   -   -   -    -    -      4
+                    ( 127,  112)    F         110.0      -   -   -   -   -   -   -   -   1    -    -      2
+                    ( 113,  125)    R         381.0      9   -   -   -   -   -   -   -   -    -    -      1
+                    ( 123,  116)    F         406.0      1   2   3   -   -   -   -   -   -    -    -      4
+                    ( 123,  116)    F         406.0      -   -   -   -   -   -   -   -   1    -    -      2
+                    ( 122,  121)    F         404.0      1   2   3   -   -   -   -   -   -    -    -      4
+                    ( 124,  115)    R         357.0     10   9   -   -   -   -   -   -   -    -    -      1
+                    ( 132,  114)    F         502.0      1   2   3   -   -   -   -   -   -    -    -      4
+                    ( 132,  114)    F         502.0      -   -   -   -   -   -   -   -   2    1    -      2
+                    ( 111,  132)    F         252.0      1   2   3   -   -   -   -   -   -    9    -      4
+                    ( 130,  111)    R         243.0     10   9   -   -   -   -   -   -   -    -    -      1
+                    ( 128,  110)    F         387.0      1   2   3   -   -   -   -   -   -    -    -      4
+                    ( 128,  110)    F         387.0      -   -   -   -   -   -   -   -   2    1    -      2
+                    ( 107,  128)    F         623.0     10   9   1   2   3   -   -   -   -    -    -      4
+
+
+
+                                  LINK TYPE                 REASON CODES
+                                   CODES                       1 :      ALIGNMENT AT THE ON-RAMP GORE. ENTRIES IN THE TABLEAU
+                                     R :  RAMP                          INDICATE THE MAINLINE FREEWAY LANES WHICH RECEIVES THE
+                                     F :  FREEWAY                       TRAFFIC FROM THE UPSTREAM ON-RAMP LANES
+                                                               2 :      ALIGNMENT AT THE OFF-RAMP GORE. ENTRIES IN THE TABLEAU
+                                                                         INDICATE THE OFF-RAMP LANES WHICH RECEIVE THE TRAFFIC
+                                                                         FROM THE UPSTREAM MAINLINE FREEWAY LANES
+
+                                                                3 :      ALIGNMENT DUE TO A LANE ADD OR DROP. ENTRIES IN
+                                                                         THE TABLEAU INDICATE THE LANES DOWNSTREAM OF THE LANE ADD
+                                                                         OR DROP WHICH RECEIVE THE TRAFFIC FROM THE UPSTREAM LANE
+
+                                                                4 :      ALIGNMENT AT LINK BOUNDARY. ENTRIES IN THE TABLEAU
+                                                                         INDICATE THE DOWNSTREAM LANES WHICH RECEIVE THE TRAFFIC 
+                                                                         FROM THE UPSTREAM LANES
+
+
+                                             TABLE OF FREEWAY WARNING SIGNS 
+                                            --------------------------------
+
+
+                                                       WARNING SIGN OBJECTIVE
+                                 DISTANCE BETWEEN  ------------------------------  DISTANCE BETWEEN   THRU           EXITING
+                                 THE WARNING SIGN              LINK       LINK     THE WARNING SIGN   TRAFFIC        TRAFFIC
+       TYPE OF     WARNING SIGN    AND UPSTREAM    OFFRAMP  CONTAINING    WITH         AND ITS        VACATES        MOVES TO
+     WARNING SIGN      LINK         NODE (FT)       NODE     INCIDENT   LANE DROP   OBJECTIVE (FT)    LANE(S)        LANE(S)
+     ------------  ------------  ----------------  -------  ----------  ---------  ----------------  --------------  --------
+      OFFRAMP      ( 107,  128)          1.0         110                                1009.0           1, 2          1,  2 
+      OFFRAMP      ( 107,  128)          1.0         114                                1910.0                           3   
+      OFFRAMP      ( 111,  132)          1.0         114                                 753.0           10             10   
+      OFFRAMP      ( 123,  116)          1.0         116                                 405.0                           1   
+      OFFRAMP      ( 123,  116)          1.0         112                                1572.0                           1   
+      OFFRAMP      ( 125,  127)          1.0         112                                 351.0                           1   
+
+
+                                               FRESIM ORIGIN - DESTINATION TRIP TABLE
+                                              ----------------------------------------
+
+  FOR EACH ORIGIN NODE, TABLE PROVIDES LISTING OF PAIRS OF DATA : DESTINATION/ FRACTION OF ENTRY VOLUME TRAVELING TO DESTINATION
+
+   ORIGIN NODE (7019)     108/ 1.000
+   ORIGIN NODE (7022)     112/ 0.617 108/ 0.383
+   ORIGIN NODE (8004)     116/ 0.200 112/ 0.400 108/ 0.400
+   ORIGIN NODE (7025)     121/ 1.000
+   ORIGIN NODE (7026)     114/ 0.649 121/ 0.351
+   ORIGIN NODE (8001)     110/ 0.500 114/ 0.300 121/ 0.200
+                                                                                                                                    
+  THE GRAVITY MODEL ACCURACY THRESHOLD IS    5.0E-02                                                                                
+                                                                                                                                    
+  GRAVITY MODEL RESULTS                                                                                                             
+  ---------------------                                                                                                             
+  ENTRY VOL/DEST   116         112         108                                                                                      
+  8004   470.0    94.0       188.0       188.0                                                                                      
+     SUM  VOL     94.0       188.0       188.0                                                                                      
+     DEST VOL     94.0       188.0       188.0                                                                                      
+                                                                                                                                    
+  ENTRY VOL/DEST   110         114         121                                                                                      
+  8001   750.0   375.0       225.0       150.0                                                                                      
+     SUM  VOL    375.0       225.0       150.0                                                                                      
+     DEST VOL    375.0       225.0       150.0                                                                                      
+                                                                                                                                    
+
+
+                                              FREE FLOW SPEED PERCENTAGES
+                                              ---------------------------
+
+              DRIVER TYPE:        1       2       3       4       5       6       7       8       9      10
+                                ---     ---     ---     ---     ---     ---     ---     ---     ---     ---
+              PERCENTAGE:        88      91      94      97      99     101     103     106     109     112
+
+
+
+                                              MAXIMUM ACCELERATION TABLE
+                                              --------------------------
+
+      PERFORMANCE       0      10      20      30      40      50      60      70      80      90     100     110
+      INDEX        FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC
+      -----        ------  ------  ------  ------  ------  ------  ------  ------  ------  ------  ------  ------
+         1           8.00    9.00    6.00    5.00    5.00    5.00    4.00    3.00    2.00    2.00    1.00    1.00
+         2           6.00   12.00   10.00    8.00    7.00    6.00    4.00    4.00    4.00    2.00    2.00    2.00
+         3           4.69    5.35    4.94    3.47    3.09    2.61    2.14    1.70    1.27    0.86    0.46    0.06
+         4           2.81    2.42    2.15    2.04    1.74    1.42    1.12    0.83    0.56    0.30    0.04   -0.23
+         5           2.76    2.37    1.81    1.56    1.25    0.97    0.73    0.52    0.32    0.14   -0.05   -0.23
+         6           2.45    2.14    1.42    1.12    0.85    0.63    0.44    0.29    0.14    0.00   -0.14   -0.27
+         7           7.47    5.33    3.17    2.66    2.29    1.65    1.40    0.95    0.75    0.50   -0.33   -0.35
+
+
+                                       GRADE CORRECTION FACTORS FOR ACCELERATION (USED BY FRESIM ONLY)
+                                       ---------------------------------------------------------------
+
+      PERFORMANCE       0      10      20      30      40      50      60      70      80      90     100     110
+      INDEX        FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC
+      -----        ------  ------  ------  ------  ------  ------  ------  ------  ------  ------  ------  ------
+         1           0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31
+         2           0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31
+         3           0.21    0.21    0.21    0.22    0.23    0.25    0.26    0.27    0.28    0.28    0.30    0.31
+         4           0.16    0.15    0.19    0.22    0.24    0.25    0.27    0.28    0.29    0.31    0.31    0.31
+         5           0.18    0.17    0.20    0.23    0.25    0.27    0.28    0.30    0.31    0.31    0.31    0.31
+         6           0.18    0.18    0.22    0.25    0.27    0.29    0.30    0.30    0.31    0.31    0.31    0.31
+         7           0.27    0.27    0.27    0.27    0.27    0.29    0.29    0.30    0.30    0.30    0.30    0.30
+
+
+                                     GRADE CORRECTION FACTORS FOR FUEL CONSUMPTION (USED BY FRESIM ONLY)
+                                     -------------------------------------------------------------------
+
+      PERFORMANCE       0      10      20      30      40      50      60      70      80      90     100     110
+      INDEX        FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC  FT/SEC
+      -----        ------  ------  ------  ------  ------  ------  ------  ------  ------  ------  ------  ------
+         1           0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31
+         2           0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31    0.31
+         3           0.26    0.26    0.26    0.28    0.29    0.30    0.30    0.30    0.30    0.30    0.30    0.30
+         4           0.11    0.11    0.23    0.27    0.28    0.29    0.30    0.30    0.30    0.30    0.30    0.30
+         5           0.16    0.16    0.26    0.28    0.29    0.30    0.30    0.30    0.30    0.30    0.30    0.30
+         6           0.20    0.20    0.28    0.29    0.30    0.30    0.30    0.30    0.31    0.31    0.31    0.31
+         7           0.27    0.27    0.27    0.27    0.27    0.29    0.29    0.30    0.30    0.30    0.30    0.30
+*****   WARNING   -  402 - It may not be possible to display link (7020,104) as a curved link because the input link length, 537, is less than or equal to the link length computed from the node coordinates, which is 537.
+ 
+ **** THERE WERE   5 WARNING MESSAGES IN DATA.
+1                                                INITIALIZATION STATISTICS
+
+          TIME INTERVAL        SUBNETWORK        PRIOR CONTENT      CURRENT CONTENT         PERCENT
+             NUMBER               TYPE             (VEHICLES)          (VEHICLES)          DIFFERENCE
+
+                1                NETSIM                 0                  14                10000
+                1                FRESIM                 0                  13                10000
+                2                NETSIM                14                  17                   21
+                2                FRESIM                13                  17                   30
+                3                NETSIM                17                  21                   23
+                3                FRESIM                17                  17                    0
+  VEHICLE MISSED DESTINATION - VEHICLE NUMBER =    126  ORIGIN NODE = 8004  DESTINATION NODE =  112  LANE =   1  TIME =    227.0        1
+                4                NETSIM                21                  19                    9
+                4                FRESIM                17                  18                    5    EQUILIBRIUM ATTAINED
+                5                NETSIM                19                  20                    5    EQUILIBRIUM ATTAINED
+                                            ALL EXISTING SUBNETWORKS REACHED EQUILIBRIUM
+  VEHICLE MISSED DESTINATION - VEHICLE NUMBER =    864  ORIGIN NODE = 8004  DESTINATION NODE =  112  LANE =   1  TIME =   1131.0        2
+  VEHICLE MISSED DESTINATION - VEHICLE NUMBER =    868  ORIGIN NODE = 8004  DESTINATION NODE =  112  LANE =   1  TIME =   1141.0        3
+  VEHICLE MISSED DESTINATION - VEHICLE NUMBER =   1257  ORIGIN NODE = 8004  DESTINATION NODE =  112  LANE =   1  TIME =   1775.0        4
+  VEHICLE MISSED DESTINATION - VEHICLE NUMBER =   1559  ORIGIN NODE = 8004  DESTINATION NODE =  112  LANE =   1  TIME =   2259.0        5
+  VEHICLE MISSED DESTINATION - VEHICLE NUMBER =   1900  ORIGIN NODE = 8004  DESTINATION NODE =  112  LANE =   1  TIME =   2815.0        6
+  VEHICLE MISSED DESTINATION - VEHICLE NUMBER =   2239  ORIGIN NODE = 8004  DESTINATION NODE =  112  LANE =   1  TIME =   3362.0        7
+  VEHICLE MISSED DESTINATION - VEHICLE NUMBER =   2317  ORIGIN NODE = 8004  DESTINATION NODE =  112  LANE =   1  TIME =   3489.0        8
+  VEHICLE MISSED DESTINATION - VEHICLE NUMBER =   2371  ORIGIN NODE = 8004  DESTINATION NODE =  112  LANE =   1  TIME =   3579.0        9
+1                                           CUMULATIVE NETSIM STATISTICS AT TIME  9: 0: 0
+
+                       ELAPSED TIME IS  1: 0: 0 ( 3600 SECONDS),    TIME PERIOD  1 ELAPSED TIME IS 3600 SECONDS
+
+
+                                VEHICLE MINUTES    RATIO   MINUTES/MILE    -------- SECONDS / VEHICLE  --------- - AVERAGE VALUES -
+                 VEHICLE      MOVE   DELAY   TOTAL MOVE/   TOTAL   DELAY   TOTAL   DELAY  CONTROL  QUEUE   STOP* STOPS  VOL SPEED
+    LINK       MILES TRIPS    TIME    TIME    TIME TOTAL    TIME    TIME    TIME    TIME   DELAY   DELAY    TIME   (%)  VPH   MPH
+    ----       -----------    -------------------- -----   -------------   ------------------------------------- -------------------
+
+ ( 102, 118)   43.01   498    86.0    16.2   102.2  0.84    2.38    0.38    12.3     1.9     1.4     0.0     0.0    0  498    25.2
+ (8024, 102)           499                                                                                             499
+ ( 103,7022)   25.70   257    51.4     6.2    57.6  0.89    2.24    0.24    13.4     1.4     0.0     0.0     0.0    0  257    26.8
+ (8027, 135)           499                                                                                             499
+ ( 105, 106)  130.79   664   261.6    12.1   273.6  0.96    2.09    0.09    24.7     1.1     0.0     0.0     0.0    0  664    28.7
+ ( 134, 117)    0.00     0     0.0     0.0     0.0  0.00    0.00    0.00     0.0     0.0     0.0     0.0     0.0    0    0     0.0
+ ( 129, 105)    3.96   265     7.9     1.5     9.4  0.84    2.38    0.38     2.1     0.3     0.0     0.0     0.0    0  265    25.2
+ ( 103, 120)    0.00     0     0.0     0.0     0.0  0.00    0.00    0.00     0.0     0.0     0.0     0.0     0.0    0    0     0.0
+ ( 118, 104)    0.00     0     0.0     0.0     0.0  0.00    0.00    0.00     0.0     0.0     0.0     0.0     0.0    0    0     0.0
+ ( 129,7026)    5.27    78    10.5     1.3    11.9  0.89    2.25    0.25     9.1     1.0     0.0     0.0     0.0    0   78    26.7
+ ( 117, 103)   46.88   256    93.8    15.1   108.9  0.86    2.32    0.32    25.4     3.5     1.8     0.0     0.0    0  256    25.8
+ ( 120, 102)    6.49    74    11.1     0.0    11.1  1.00    1.70    0.00     9.0     0.0     0.0     0.0     0.0    0   74    35.2
+ ( 135, 134)   93.38   498   183.8     0.0   183.8  1.00    1.97    0.00    22.1     0.0     0.1     0.0     0.0    0  498    30.5
+ (7021, 120)    8.27    75     8.1     0.0     8.1  1.00    0.97    0.00     6.4     0.0     0.0     0.0     0.0    0   75    61.6
+ ( 134,7025)   41.32   497    82.6     5.4    88.0  0.94    2.13    0.13    10.6     0.7     0.0     0.0     0.0    0  497    28.2
+ ( 104, 129)   62.17   343   124.3    15.7   140.0  0.89    2.25    0.25    24.3     2.7     0.5     0.0     0.0    0  343    26.6
+ (7024, 105)   31.96   397    41.1     0.0    41.1  1.00    1.29    0.00     6.2     0.0     0.0     0.0     0.0    1  397    46.6
+ (7023, 117)   19.23   259    21.5     0.0    21.5  1.00    1.12    0.00     5.0     0.0     0.0     0.0     0.0    0  259    53.7
+ ( 118,7019)   61.43   499   122.9    13.0   135.9  0.90    2.21    0.21    16.3     1.6     0.0     0.0     0.0    0  499    27.1
+ (7020, 104)   34.99   344    66.9     0.0    66.9  1.00    1.91    0.00    11.7     0.0     1.5     0.0     0.0    0  344    31.4
+0SUBNETWORK=  614.84  2069   19.56    1.44   21.00  0.93    2.05    0.14    0.60    0.04    0.02    0.00    0.00    0.4        29.3
+                             -- VEHICLE - HOURS --                           --- MINUTES / VEHICLE-TRIP ---     PER
+                                                                                                               TRIP
+
+1                                           CUMULATIVE NETSIM STATISTICS AT TIME  9: 0: 0
+
+                       ELAPSED TIME IS  1: 0: 0 ( 3600 SECONDS),    TIME PERIOD  1 ELAPSED TIME IS 3600 SECONDS
+
+
+                 VEH-MINS *    AVERAGE   -- CONGESTION --    ------------     Q U E U E    L E N G T H  (VEHICLE)     ------------    NUMBER
+               QUEUE    STOP  OCCUPANCY   STORAGE   PHASE            AVERAGE QUEUE BY LANE **              MAXIMUM QUEUE BY LANE     OF LANE
+    LINK        TIME    TIME  (VEHICLE)    (%)    FAILURE     1     2     3     4     5     6     7      1   2   3   4   5   6   7   CHANGES
+    ----       -------------  ---------  ----------------     -     -     -     -     -     -     -      -   -   -   -   -   -   -
+
+ ( 102, 118)     0.0     0.0      2.0      2.2        0       0     0     0     0     0     0     0      0   0   0   0   0   0   0      59
+ ( 103,7022)     0.0     0.0      1.4      5.4        0       0     0     0     0     0     0     0      0   0   0   0   0   0   0       0
+ ( 105, 106)     0.1     0.0      5.0      4.8        0       0     0     0     0     0     0     0      0   0   0   0   0   0   0     141
+ ( 134, 117)     0.0     0.0      0.0      0.0        0       0     0     0     0     0     0     0      0   0   0   0   0   0   0       0
+ ( 129, 105)     0.1     0.1      0.2      1.5        0       0     0     0     0     0     0     0      0   0   1   0   0   0   0       0
+ ( 103, 120)     0.0     0.0      0.0      0.0        0       0     0     0     0     0     0     0      0   0   0   0   0   0   0       0
+ ( 118, 104)     0.0     0.0      0.0      0.0        0       0     0     0     0     0     0     0      0   0   0   0   0   0   0       0
+ ( 129,7026)     0.0     0.0      0.3      0.9        0       0     0     0     0     0     0     0      0   0   0   0   0   0   0       3
+ ( 117, 103)     0.0     0.0      2.4      1.2        0       0     0     0     0     0     0     0      0   0   0   0   0   0   0       3
+ ( 120, 102)     0.0     0.0      0.4      0.4        0       0     0     0     0     0     0     0      0   0   0   0   0   0   0       0
+ ( 135, 134)     0.0     0.0      3.7      1.9        0       0     0     0     0     0     0     0      0   0   0   0   0   0   0      45
+ (7021, 120)     0.0     0.0      0.3      1.0        0       0     0     0     0     0     0     0      0   0   0   0   0   0   0       0
+ ( 134,7025)     0.0     0.0      2.0      4.5        0       0     0     0     0     0     0     0      0   0   0   0   0   0   0      91
+ ( 104, 129)     0.0     0.0      2.8      1.5        0       0     0     0     0     0     0     0      0   0   0   0   0   0   0       2
+ (7024, 105)     0.2     0.1      1.1      2.7        0       0     0     0     0     0     0     0      0   1   0   0   0   0   0      11
+ (7023, 117)     0.0     0.0      0.6      1.6        0       0     0     0     0     0     0     0      0   0   0   0   0   0   0      38
+ ( 118,7019)     0.0     0.0      2.7      8.2        0       0     0     0     0     0     0     0      0   0   0   0   0   0   0       0
+ (7020, 104)     0.0     0.0      1.6      5.8        0       0     0     0     0     0     0     0      0   0   0   0   0   0   0       0
+0SUBNETWORK=     0.3     0.2     26.6      2.3        0                                                                                393
+
+                              *  THESE VALUES INCLUDE THE TIME FOR VEHICLES CURRENTLY ON THE LINK.
+                              ** AVERAGE QUEUE CALCULATED BASED ON TIME SINCE BEGINNING OF SIMULATION
+
+
+
+1
+                                           CUMULATIVE NETSIM STATISTICS AT TIME  9: 0: 0
+
+                       ELAPSED TIME IS  1: 0: 0 ( 3600 SECONDS),    TIME PERIOD  1 ELAPSED TIME IS 3600 SECONDS
+
+
+                                        DISCHARGE BY LANE
+
+                     LANE 1           LANE 2           LANE 3           LANE 4           LANE 5           LANE 6           LANE 7
+    LINK            VEH   VPH        VEH   VPH        VEH   VPH        VEH   VPH        VEH   VPH        VEH   VPH        VEH   VPH 
+    ----            ---   ---        ---   ---        ---   ---        ---   ---        ---   ---        ---   ---        ---   ---
+
+( 102, 118)         498   498          0     0          0     0          0     0          0     0          0     0          0     0
+( 103,7022)         257   257          0     0          0     0          0     0          0     0          0     0          0     0
+( 105, 106)         212   212        452   452          0     0          0     0          0     0          0     0          0     0
+( 134, 117)           0     0          0     0          0     0          0     0          0     0          0     0          0     0
+( 129, 105)           0     0        263   263          2     2          0     0          0     0          0     0          0     0
+( 103, 120)           0     0          0     0          0     0          0     0          0     0          0     0          0     0
+( 118, 104)           0     0          0     0          0     0          0     0          0     0          0     0          0     0
+( 129,7026)          75    75          3     3          0     0          0     0          0     0          0     0          0     0
+( 117, 103)         256   256          0     0          0     0          0     0          0     0          0     0          0     0
+( 120, 102)          74    74          0     0          0     0          0     0          0     0          0     0          0     0
+( 135, 134)         498   498          0     0          0     0          0     0          0     0          0     0          0     0
+(7021, 120)          75    75          0     0          0     0          0     0          0     0          0     0          0     0
+( 134,7025)         406   406         91    91          0     0          0     0          0     0          0     0          0     0
+( 104, 129)          78    78        263   263          2     2          0     0          0     0          0     0          0     0
+(7024, 105)          84    84        313   313          0     0          0     0          0     0          0     0          0     0
+(7023, 117)         256   256          3     3          0     0          0     0          0     0          0     0          0     0
+( 118,7019)         499   499          0     0          0     0          0     0          0     0          0     0          0     0
+(7020, 104)         344   344          0     0          0     0          0     0          0     0          0     0          0     0
+
+
+
+
+1                                                NETSIM PERSON MEASURES OF EFFECTIVENESS
+
+
+                           LINK             PERSON              PERSON               DELAY            TRAVEL TIME
+                                             MILE                TRIPS             PERSON-MIN          PERSON-MIN
+
+                       ( 102, 118)           55.9                647.4                21.0                 132.9
+                       ( 103,7022)           33.4                334.1                 8.0                  74.9
+                       ( 105, 106)          170.0                863.2                15.7                 355.7
+                       ( 134, 117)            0.0                  0.0                 0.0                   0.0
+                       ( 129, 105)            5.2                344.5                 2.0                  12.3
+                       ( 103, 120)            0.0                  0.0                 0.0                   0.0
+                       ( 118, 104)            0.0                  0.0                 0.0                   0.0
+                       ( 129,7026)            6.9                101.4                 1.7                  15.4
+                       ( 117, 103)           61.0                332.8                19.6                 141.5
+                       ( 120, 102)            8.4                 96.2                 0.0                  14.4
+                       ( 135, 134)          121.4                647.4                 0.0                 238.9
+                       (7021, 120)           10.7                 97.5                 0.0                  10.5
+                       ( 134,7025)           53.7                646.1                 7.0                 114.4
+                       ( 104, 129)           80.8                445.9                20.4                 182.0
+                       (7024, 105)           41.5                516.1                 0.0                  53.5
+                       (7023, 117)           25.0                336.7                 0.0                  27.9
+                       ( 118,7019)           79.9                648.7                16.9                 176.6
+                       (7020, 104)           45.5                447.2                 0.0                  87.0
+
+
+1   *** NOTE ***    TIME PERIOD 1 SPECIFIC NETSIM STATISTICS ARE THE SAME AS CUMULATIVE OUTPUT AT THE END OF TIME PERIOD 1.
+
+
+
+                                                 NETSIM CUMULATIVE VALUES OF FUEL CONSUMPTION
+                                                  FUEL CONSUMPTION BY VEHICLE TYPE (GALLONS)
+      LINK            1       2       3       4       5       6       7       8       9      10      11      12      13      14      15      16
+ ( 102,  118)       1.54    0.00    0.00    0.00    0.96    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 103, 7022)       1.28    0.00    0.00    0.00    0.98    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 105,  106)       2.98    0.00    0.00    0.00    1.63    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 134,  117)       0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 129,  105)       0.09    0.00    0.00    0.00    0.04    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 103,  120)       0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 118,  104)       0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 129, 7026)       0.31    0.00    0.00    0.00    0.32    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 117,  103)       0.90    0.00    0.00    0.00    0.54    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 120,  102)       0.09    0.00    0.00    0.00    0.04    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 135,  134)       2.40    0.00    0.00    0.00    1.40    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7021,  120)       0.06    0.00    0.00    0.00    0.03    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 134, 7025)       1.02    0.00    0.00    0.00    0.62    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 104,  129)       2.22    0.00    0.00    0.00    1.37    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7024,  105)       0.32    0.00    0.00    0.00    0.18    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7023,  117)       0.16    0.00    0.00    0.00    0.08    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 118, 7019)       2.73    0.00    0.00    0.00    1.86    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7020,  104)       0.47    0.00    0.00    0.00    0.20    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ SUBNETWORK-       16.58    0.00    0.00    0.00   10.25    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+VEHICLE TYPES 1, 5 = AUTO, VEHICLE TYPES 2, 6, 7, 8 = TRUCK, VEHICLE TYPE 4 = TRANSIT BUS, VEHICLE TYPES 3, 9 = CARPOOL, VEHICLE TYPES 10 - 16 USER DEFINED
+
+                                                  FUEL CONSUMPTION BY VEHICLE TYPE (M.P.G.)
+      LINK            1       2       3       4       5       6       7       8       9      10      11      12      13      14      15      16
+ ( 102,  118)      19.68    0.00    0.00    0.00   11.37    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 103, 7022)      13.25    0.00    0.00    0.00    7.07    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 105,  106)      32.81    0.00    0.00    0.00   20.28    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 134,  117)       0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 129,  105)      36.57    0.00    0.00    0.00   24.37    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 103,  120)       0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 118,  104)       0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 129, 7026)      10.03    0.00    0.00    0.00    4.92    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 117,  103)      37.49    0.00    0.00    0.00   25.29    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 120,  102)      53.65    0.00    0.00    0.00   46.20    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 135,  134)      28.24    0.00    0.00    0.00   17.03    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7021,  120)      80.34    0.00    0.00    0.00   61.22    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 134, 7025)      29.66    0.00    0.00    0.00   17.40    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 104,  129)      20.52    0.00    0.00    0.00   11.51    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7024,  105)      55.61    0.00    0.00    0.00   35.52    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7023,  117)      64.89    0.00    0.00    0.00   49.50    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 118, 7019)      15.64    0.00    0.00    0.00    8.24    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7020,  104)      44.81    0.00    0.00    0.00   35.57    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ SUBNETWORK-       25.95    0.00    0.00    0.00   15.02    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+VEHICLE TYPES 1, 5 = AUTO, VEHICLE TYPES 2, 6, 7, 8 = TRUCK, VEHICLE TYPE 4 = TRANSIT BUS, VEHICLE TYPES 3, 9 = CARPOOL, VEHICLE TYPES 10 - 16 USER DEFINED
+
+                                               NETSIM CUMULATIVE VALUES OF EMISSION
+
+
+                                              VEHICLE EMISSIONS BY VEHICLE TYPE (GRAMS / MILE)
+                                                                            HC
+      LINK                1       2       3       4       5       6       7       8       9      10      11      12      13      14      15      16
+ ( 102,  118)           0.24    0.00    0.00    0.00    0.22    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 103, 7022)           0.38    0.00    0.00    0.00    0.37    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 105,  106)           0.04    0.00    0.00    0.00    0.04    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 134,  117)           0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 129,  105)           0.01    0.00    0.00    0.00    0.01    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 103,  120)           0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 118,  104)           0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 129, 7026)           0.61    0.00    0.00    0.00    0.61    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 117,  103)           0.01    0.00    0.00    0.00    0.01    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 120,  102)           0.05    0.00    0.00    0.00    0.06    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 135,  134)           0.10    0.00    0.00    0.00    0.09    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7021,  120)           0.06    0.00    0.00    0.00    0.06    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 134, 7025)           0.06    0.00    0.00    0.00    0.08    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 104,  129)           0.20    0.00    0.00    0.00    0.18    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7024,  105)           0.06    0.00    0.00    0.00    0.07    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7023,  117)           0.07    0.00    0.00    0.00    0.07    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 118, 7019)           0.33    0.00    0.00    0.00    0.31    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7020,  104)           0.04    0.00    0.00    0.00    0.04    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ SUBNETWORK-            0.13    0.00    0.00    0.00    0.12    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+VEHICLE TYPES 1, 5 = AUTO, VEHICLE TYPES 2, 6, 7, 8 = TRUCK, VEHICLE TYPE 4 = TRANSIT BUS, VEHICLE TYPES 3, 9 = CARPOOL, VEHICLE TYPES 10 - 16 USER DEFINED
+
+                                               NETSIM CUMULATIVE VALUES OF EMISSION
+
+
+                                              VEHICLE EMISSIONS BY VEHICLE TYPE (GRAMS / MILE)
+                                                                            CO
+      LINK                1       2       3       4       5       6       7       8       9      10      11      12      13      14      15      16
+ ( 102,  118)          21.86    0.00    0.00    0.00   18.49    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 103, 7022)          28.04    0.00    0.00    0.00   24.29    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 105,  106)           3.40    0.00    0.00    0.00    3.15    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 134,  117)           0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 129,  105)           1.05    0.00    0.00    0.00    0.81    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 103,  120)           0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 118,  104)           0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 129, 7026)          46.54    0.00    0.00    0.00   40.51    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 117,  103)           0.80    0.00    0.00    0.00    0.78    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 120,  102)           0.53    0.00    0.00    0.00    0.44    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 135,  134)           9.44    0.00    0.00    0.00    7.96    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7021,  120)           0.33    0.00    0.00    0.00    0.30    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 134, 7025)           5.53    0.00    0.00    0.00    6.58    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 104,  129)          16.33    0.00    0.00    0.00   12.16    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7024,  105)           0.86    0.00    0.00    0.00    1.46    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7023,  117)           0.90    0.00    0.00    0.00    0.70    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 118, 7019)          25.93    0.00    0.00    0.00   20.41    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7020,  104)           0.60    0.00    0.00    0.00    0.59    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ SUBNETWORK-           10.11    0.00    0.00    0.00    8.66    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+VEHICLE TYPES 1, 5 = AUTO, VEHICLE TYPES 2, 6, 7, 8 = TRUCK, VEHICLE TYPE 4 = TRANSIT BUS, VEHICLE TYPES 3, 9 = CARPOOL, VEHICLE TYPES 10 - 16 USER DEFINED
+
+                                               NETSIM CUMULATIVE VALUES OF EMISSION
+
+
+                                              VEHICLE EMISSIONS BY VEHICLE TYPE (GRAMS / MILE)
+                                                                            NO
+      LINK                1       2       3       4       5       6       7       8       9      10      11      12      13      14      15      16
+ ( 102,  118)           0.66    0.00    0.00    0.00    0.83    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 103, 7022)           1.36    0.00    0.00    0.00    1.86    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 105,  106)           0.15    0.00    0.00    0.00    0.18    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 134,  117)           0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 129,  105)           0.04    0.00    0.00    0.00    0.04    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 103,  120)           0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 118,  104)           0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 129, 7026)           2.00    0.00    0.00    0.00    2.95    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 117,  103)           0.02    0.00    0.00    0.00    0.03    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 120,  102)           0.01    0.00    0.00    0.00    0.02    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 135,  134)           0.28    0.00    0.00    0.00    0.34    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7021,  120)           0.00    0.00    0.00    0.00    0.01    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 134, 7025)           0.25    0.00    0.00    0.00    0.35    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 104,  129)           0.62    0.00    0.00    0.00    0.87    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7024,  105)           0.02    0.00    0.00    0.00    0.08    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7023,  117)           0.02    0.00    0.00    0.00    0.02    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 118, 7019)           1.03    0.00    0.00    0.00    1.48    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7020,  104)           0.00    0.00    0.00    0.00    0.01    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ SUBNETWORK-            0.38    0.00    0.00    0.00    0.53    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+VEHICLE TYPES 1, 5 = AUTO, VEHICLE TYPES 2, 6, 7, 8 = TRUCK, VEHICLE TYPE 4 = TRANSIT BUS, VEHICLE TYPES 3, 9 = CARPOOL, VEHICLE TYPES 10 - 16 USER DEFINED
+
+
+
+ THE HIGHEST NUMBER OF VEHICLES ON THE NETWORK WAS    32 VEHICLES.
+ THIS MAXIMUM OCCURRED AT  1987 SECONDS.
+1
+                                           CUMULATIVE FRESIM STATISTICS AT TIME  9  0  0
+                                       -----------------------------------------------------
+
+                                                        LINK STATISTICS
+
+
+                                                                                    VEH-MIN/
+                                                          SECONDS/VEHICLE           VEH-MILE
+                                                         ------------------       -----------
+              VEHICLES  LANE  CURR  AVG    VEH-    VEH-   TOTAL  MOVE DELAY                     VOLUME    DENSITY    SPEED    LINK
+   LINK       IN   OUT  CHNG  CONT  CONT  MILES    MIN    TIME   TIME  TIME  M/T  TOTAL DELAY   VPHPL     VPMPL      MILE/HR  TYPE
+----------- ----- ----- ---- ----- ----- ------- ------- ------ ----- ----- ----- ----- -----   -------   --------  --------- ----
+
+( 109, 108)   807   807   34     1   1.3   69.6    80.8     6.0   4.8   1.2  0.80  1.16  0.24    269.2      5.2       51.67   FRWY
+
+( 128, 110)   749   749    1     1   0.8   54.9    50.9     4.1   4.1   0.0  1.00  0.93  0.00    149.7      2.3       64.63   FRWY
+
+( 110, 111)   352   352    1     0   0.2    9.8     9.1     1.5   1.5   0.0  1.00  0.93  0.00    117.3      1.8       64.81   FRWY
+
+( 132, 114)   431   431  256     1   0.6   41.0    38.8     5.4   5.3   0.1  0.98  0.95  0.02     93.8      1.5       63.41   FRWY
+
+( 114, 115)   171   171   10     0   0.1    4.3     4.0     1.4   1.4   0.0  1.00  0.93  0.00     57.0      0.9       64.55   FRWY
+
+(7025, 124)   497   498  106     2   1.3   58.2    78.2     9.2   6.3   2.9  0.69  1.34  0.42    256.4      5.7       44.62   RAMP
+
+( 114,7023)   260   259    0     2   0.6   40.7    38.1     8.8   8.7   0.1  0.99  0.94  0.01    129.9      2.0       64.11   RAMP
+
+( 119, 109)   808   807  578     1   0.8   28.6    49.0     3.6   2.0   1.7  0.54  1.71  0.79    228.5      6.5       35.01   FRWY
+
+( 112, 119)   309   310   54     0   0.7   40.2    39.1     7.6   7.2   0.4  0.95  0.97  0.05    103.2      1.7       61.78   FRWY
+
+( 122, 121)   668   669    6     0   0.8   51.2    50.9     4.6   4.2   0.3  0.93  0.99  0.07    167.2      2.8       60.35   FRWY
+
+( 125, 127)   652   652  296     1   0.6   29.8    36.6     3.4   2.5   0.8  0.75  1.23  0.30    170.2      3.5       48.90   FRWY
+
+( 124, 115)   498   498   35     0   0.6   33.7    35.6     4.3   3.8   0.5  0.87  1.06  0.13    249.0      4.4       56.74   RAMP
+
+( 116, 125)   395   395   18     1   0.9   61.0    56.7     8.6   8.6   0.0  0.99  0.93  0.01    131.7      2.0       64.55   FRWY
+
+( 123, 116)   469   469  362     0   0.6   37.7    34.9     4.3   4.3   0.0  1.00  0.92  0.00    131.2      2.0       64.87   FRWY
+
+( 127, 112)   652   652  362     0   0.3   13.6    15.1     1.4   1.2   0.2  0.83  1.11  0.19    166.8      3.1       54.13   FRWY
+
+( 115, 122)   669   668  384     2   1.1   53.5    64.6     5.8   4.4   1.4  0.77  1.21  0.28    149.5      3.0       49.67   FRWY
+
+( 107, 128)   749   749  842     1   1.4   90.9    84.4     6.6   6.6   0.0  1.00  0.93  0.00    154.1      2.4       64.64   FRWY
+
+( 116,7021)    74    74    0     0   0.1    7.0     6.4     5.2   5.2   0.0  1.00  0.92  0.00     74.0      1.1       64.91   RAMP
+
+( 113, 125)   257   257    0     0   0.4   18.5    24.0     5.6   4.0   1.6  0.71  1.30  0.37    257.0      5.5       46.32   RAMP
+
+(7019, 126)   499   498    0     1   0.6   20.6    34.2     3.8   2.1   1.7  0.56  1.66  0.74    542.9     15.0       36.10   RAMP
+
+(7022, 113)   257   257    0     0   0.2    8.1    13.7     2.9   1.6   1.3  0.54  1.70  0.77    288.1      8.1       35.37   RAMP
+
+( 112, 131)   343   342    0     1   0.5   29.3    30.5     5.3   4.7   0.6  0.89  1.04  0.12    342.5      5.9       57.56   RAMP
+
+( 131,7020)   342   342    0     0   0.2   13.4    14.0     2.5   2.2   0.3  0.89  1.04  0.12    342.0      5.9       57.56   RAMP
+
+(7026, 130)    78    80    7     0   0.2    8.4    11.3     8.3   5.7   2.6  0.68  1.34  0.42     40.9      0.9       44.66   RAMP
+
+( 130, 111)    80    79    1     1   0.1    3.7     4.0     3.0   2.5   0.4  0.85  1.08  0.16     40.0      0.7       55.67   RAMP
+
+( 126, 119)   498   498    0     1   0.5   19.9    31.0     3.7   2.2   1.5  0.60  1.56  0.63    498.6     12.9       38.55   RAMP
+
+( 111, 132)   431   431  261     0   0.3   20.6    20.1     2.8   2.6   0.2  0.94  0.98  0.05     98.0      1.6       61.37   FRWY
+
+( 110,7024)   397   397    0     1   0.9   59.3    56.2     8.5   8.3   0.2  0.98  0.95  0.02    198.3      3.1       63.24   RAMP
+
+
+                                               NETWORK STATISTICS
+
+              VEHICLE-MILES =    927.3, VEHICLE-MINUTES =   1012.2, MOVING/TOTAL TRIP TIME = 0.847,
+
+                AVERAGE CONTENT =     16.9, CURRENT CONTENT =     18.0, SPEED(MPH) =  54.97,
+
+             TOTAL DELAY (VEH-MIN) =    154.53, TRAVEL TIME (MIN)/VEH-MILE =   1.09, DELAY TIME (MIN)/ VEH-MILE =   0.17
+
+
+                                                  LINK STATISTICS BY LANE
+
+                                         (SOME STATISTICS APPLY TO HOV LANES ONLY)
+
+                                                                  SEC./VEHICLE         SEC./PERSON
+                                                               ------------------   -----------------
+                           VEHICLES   CURR  VOLUME  VOLUME OF  TOTAL  MOVE  DELAY   TOTAL  MOVE  DELAY   SPEED
+   LINK      LANE  TYPE    IN   OUT   CONT  VEH/HR  VIOLATORS  TIME   TIME   TIME   TIME   TIME   TIME  MILES/HR
+-----------  ----  ----  ----- ----- -----  ------   -------   ----   ----   ----   ----   ----   ----  --------
+( 109, 108)    1   SOV     ---   ---     0   426.9     -----    6.7    5.0    1.6    5.1    3.9    1.2    46.63
+( 109, 108)    2   SOV     ---   ---     1   301.2     -----    5.4    4.7    0.6    4.1    3.6    0.5    57.62
+( 109, 108)    3   SOV     ---   ---     0    79.6     -----    4.9    4.8    0.1    3.7    3.7    0.1    63.69
+ 
+( 128, 110)    1   SOV     ---   ---     1   291.7     -----    4.1    4.1    0.0    3.1    3.1    0.0    64.88
+( 128, 110)    2   SOV     ---   ---     0    32.8     -----    4.1    4.1    0.0    3.2    3.2    0.0    63.81
+( 128, 110)    3   SOV     ---   ---     0    27.0     -----    4.1    4.1    0.0    3.1    3.1    0.0    64.70
+( 128, 110)    9   SOV     ---   ---     0   324.0     -----    4.1    4.1    0.0    3.1    3.1    0.0    64.55
+( 128, 110)   10   SOV     ---   ---     0    73.0     -----    4.1    4.1    0.0    3.2    3.2    0.0    64.34
+ 
+( 110, 111)    1   SOV     ---   ---     0   291.3     -----    1.5    1.5    0.0    1.2    1.2    0.0    64.92
+( 110, 111)    2   SOV     ---   ---     0    33.7     -----    1.6    1.6    0.0    1.2    1.2    0.0    63.91
+( 110, 111)    3   SOV     ---   ---     0    27.0     -----    1.5    1.5    0.0    1.2    1.2    0.0    64.80
+ 
+( 132, 114)    1   SOV     ---   ---     0    68.0     -----    5.3    5.2    0.1    4.1    4.0    0.1    64.61
+( 132, 114)    2   SOV     ---   ---     1    76.7     -----    5.3    5.3    0.0    4.1    4.1    0.0    64.02
+( 132, 114)    3   SOV     ---   ---     0    27.0     -----    5.3    5.3    0.0    4.1    4.1    0.0    64.70
+( 132, 114)    9   SOV     ---   ---     0   108.4     -----    5.5    5.3    0.2    4.2    4.1    0.2    61.98
+( 132, 114)   10   SOV     ---   ---     0   151.0     -----    5.4    5.3    0.1    4.2    4.1    0.1    63.39
+ 
+( 114, 115)    1   SOV     ---   ---     0    43.0     -----    1.4    1.4    0.0    1.1    1.1    0.0    65.46
+( 114, 115)    2   SOV     ---   ---     0   101.0     -----    1.4    1.4    0.0    1.1    1.1    0.0    64.14
+( 114, 115)    3   SOV     ---   ---     0    27.0     -----    1.4    1.4    0.0    1.1    1.1    0.0    64.67
+ 
+(7025, 124)    1   SOV     ---   ---     1   366.9     -----    9.4    6.4    3.0    7.2    4.9    2.3    43.39
+(7025, 124)    2   SOV     ---   ---     1   145.8     -----    8.5    5.8    2.7    6.5    4.5    2.1    48.04
+ 
+( 114,7023)    1   SOV     ---   ---     2   218.9     -----    8.9    8.7    0.1    6.8    6.7    0.1    63.52
+( 114,7023)    2   SOV     ---   ---     0    41.0     -----    8.4    8.3    0.0    6.4    6.4    0.0    67.43
+ 
+( 119, 109)    1   SOV     ---   ---     1   443.7     -----    4.5    1.8    2.7    3.5    1.4    2.1    28.35
+( 119, 109)    2   SOV     ---   ---     0   240.3     -----    2.2    1.9    0.4    1.7    1.4    0.3    57.15
+( 119, 109)    3   SOV     ---   ---     0    72.6     -----    2.0    2.0    0.0    1.5    1.5    0.0    64.20
+( 119, 109)    9   SOV     ---   ---     0    51.0     -----    5.2    5.0    0.3    4.0    3.8    0.2    24.45
+ 
+( 112, 119)    1   SOV     ---   ---     0    44.4     -----    8.1    7.3    0.9    6.3    5.6    0.7    57.47
+( 112, 119)    2   SOV     ---   ---     0   198.7     -----    7.5    7.2    0.3    5.8    5.5    0.3    62.08
+( 112, 119)    3   SOV     ---   ---     0    66.4     -----    7.3    7.2    0.1    5.6    5.6    0.1    64.09
+ 
+( 122, 121)    1   SOV     ---   ---     0    76.1     -----    4.4    4.2    0.3    3.4    3.2    0.2    62.32
+( 122, 121)    2   SOV     ---   ---     0   108.0     -----    4.3    4.3    0.0    3.3    3.3    0.0    64.30
+( 122, 121)    3   SOV     ---   ---     0    27.0     -----    4.3    4.3    0.0    3.3    3.3    0.0    64.61
+( 122, 121)    9   SOV     ---   ---     0   457.7     -----    4.7    4.3    0.3    3.6    3.3    0.3    58.95
+ 
+( 125, 127)    1   SOV     ---   ---     0   412.4     -----    3.5    2.5    1.1    2.7    1.9    0.8    46.70
+( 125, 127)    2   SOV     ---   ---     0   129.3     -----    2.7    2.5    0.2    2.1    1.9    0.1    61.82
+( 125, 127)    3   SOV     ---   ---     1    62.1     -----    2.6    2.6    0.0    2.0    2.0    0.0    64.48
+( 125, 127)    9   SOV     ---   ---     0    47.4     -----    5.0    3.6    1.3    3.8    2.8    1.0    33.11
+ 
+( 124, 115)    1   SOV     ---   ---     0   334.6     -----    4.4    3.9    0.5    3.4    3.0    0.4    55.11
+( 124, 115)    2   SOV     ---   ---     0   163.4     -----    4.0    3.6    0.4    3.1    2.8    0.3    60.39
+ 
+( 116, 125)    1   SOV     ---   ---     1   225.5     -----    8.7    8.6    0.1    6.7    6.6    0.1    64.15
+( 116, 125)    2   SOV     ---   ---     0   106.6     -----    8.5    8.5    0.0    6.5    6.5    0.0    65.58
+( 116, 125)    3   SOV     ---   ---     0    63.0     -----    8.6    8.6    0.0    6.7    6.6    0.0    64.28
+ 
+( 123, 116)    1   SOV     ---   ---     0   226.2     -----    4.3    4.3    0.0    3.3    3.3    0.0    64.70
+( 123, 116)    2   SOV     ---   ---     0   129.6     -----    4.2    4.2    0.0    3.3    3.2    0.0    65.43
+( 123, 116)    3   SOV     ---   ---     0    82.1     -----    4.3    4.3    0.0    3.3    3.3    0.0    64.40
+( 123, 116)    9   SOV     ---   ---     0    52.7     -----    4.3    4.3    0.0    3.3    3.3    0.0    64.95
+ 
+( 127, 112)    1   SOV     ---   ---     0   212.6     -----    1.4    1.2    0.3    1.1    0.9    0.2    52.18
+( 127, 112)    2   SOV     ---   ---     0   162.0     -----    1.3    1.1    0.2    1.0    0.9    0.1    58.25
+( 127, 112)    3   SOV     ---   ---     0    62.0     -----    1.2    1.2    0.0    0.9    0.9    0.0    64.26
+( 127, 112)    9   SOV     ---   ---     0   215.4     -----    1.5    1.2    0.3    1.1    0.9    0.2    50.99
+ 
+( 115, 122)    1   SOV     ---   ---     0    58.2     -----    4.8    4.3    0.5    3.7    3.3    0.4    60.00
+( 115, 122)    2   SOV     ---   ---     1   105.5     -----    4.5    4.5    0.0    3.4    3.4    0.0    64.26
+( 115, 122)    3   SOV     ---   ---     0    27.0     -----    4.5    4.4    0.0    3.4    3.4    0.0    64.65
+( 115, 122)    9   SOV     ---   ---     1   438.0     -----    6.1    4.4    1.7    4.7    3.4    1.3    47.30
+( 115, 122)   10   SOV     ---   ---     0    40.1     -----    8.4    6.1    2.3    6.5    4.7    1.8    34.12
+ 
+( 107, 128)    1   SOV     ---   ---     0    83.6     -----    6.6    6.6    0.0    5.1    5.1    0.0    64.36
+( 107, 128)    2   SOV     ---   ---     1   280.7     -----    6.6    6.6    0.0    5.1    5.1    0.0    64.50
+( 107, 128)    3   SOV     ---   ---     0   295.3     -----    6.5    6.5    0.0    5.0    5.0    0.0    64.89
+( 107, 128)    4   SOV     ---   ---     0    67.5     -----    6.6    6.6    0.0    5.1    5.1    0.0    64.45
+( 107, 128)    5   SOV     ---   ---     0    43.4     -----    6.6    6.6    0.0    5.1    5.0    0.0    64.65
+ 
+( 116,7021)    1   SOV     ---   ---     0    74.0     -----    5.2    5.2    0.0    4.0    4.0    0.0    64.91
+ 
+( 113, 125)    1   SOV     ---   ---     0   257.0     -----    5.6    4.2    1.4    4.3    3.2    1.1    46.32
+ 
+(7019, 126)    1   SOV     ---   ---     1   542.9     -----    3.8    1.9    1.8    2.9    1.5    1.4    36.10
+ 
+(7022, 113)    1   SOV     ---   ---     0   288.1     -----    2.9    1.4    1.5    2.2    1.1    1.1    35.37
+ 
+( 112, 131)    1   SOV     ---   ---     1   342.5     -----    5.3    4.8    0.6    4.1    3.7    0.4    57.56
+ 
+( 131,7020)    1   SOV     ---   ---     0   342.0     -----    2.5    2.2    0.2    1.9    1.7    0.2    57.56
+ 
+(7026, 130)    1   SOV     ---   ---     0    72.6     -----    8.4    5.7    2.7    6.4    4.4    2.1    44.25
+(7026, 130)    2   SOV     ---   ---     0     9.3     -----    7.7    5.2    2.5    5.9    4.0    1.9    48.11
+ 
+( 130, 111)    1   SOV     ---   ---     1    68.7     -----    2.8    2.6    0.2    2.2    2.0    0.2    58.52
+( 130, 111)    2   SOV     ---   ---     0    11.2     -----    3.9    2.5    1.4    3.0    1.9    1.0    42.88
+ 
+( 126, 119)    1   SOV     ---   ---     1   498.6     -----    3.7    2.4    1.3    2.9    1.8    1.0    38.55
+ 
+( 111, 132)    1   SOV     ---   ---     0   204.0     -----    2.7    2.6    0.1    2.1    2.0    0.0    63.76
+( 111, 132)    2   SOV     ---   ---     0    47.1     -----    2.7    2.7    0.0    2.1    2.1    0.0    63.86
+( 111, 132)    3   SOV     ---   ---     0    27.0     -----    2.7    2.6    0.0    2.0    2.0    0.0    64.77
+( 111, 132)    9   SOV     ---   ---     0     0.8     -----    6.4   -5.7   12.1    4.9   -4.4    9.3    26.91
+( 111, 132)   10   SOV     ---   ---     0   152.1     -----    3.0    2.6    0.3    2.3    2.0    0.3    57.64
+ 
+( 110,7024)    1   SOV     ---   ---     0    73.0     -----    8.4    8.4    0.0    6.5    6.4    0.0    64.09
+( 110,7024)    2   SOV     ---   ---     1   323.5     -----    8.5    8.3    0.2    6.6    6.4    0.2    63.05
+ 
+
+                                                 FRESIM CUMULATIVE VALUES OF FUEL CONSUMPTION
+                                                  FUEL CONSUMPTION BY VEHICLE TYPE (GALLONS)
+      LINK                1       2       3       4       5       6       7       8       9      10      11      12      13      14      15      16
+ ( 109,  108)  FRWY     3.00    4.70    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 128,  110)  FRWY     0.65    1.50    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 110,  111)  FRWY     0.12    0.29    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 132,  114)  FRWY     1.04    1.62    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 114,  115)  FRWY     0.05    0.13    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7025,  124)  RAMP     3.30    5.33    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 114, 7023)  RAMP     0.58    0.97    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 119,  109)  FRWY     1.30    2.13    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 112,  119)  FRWY     0.87    1.62    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 122,  121)  FRWY     1.49    2.58    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 125,  127)  FRWY     0.69    1.29    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 124,  115)  RAMP     0.94    1.43    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 116,  125)  FRWY     0.69    1.70    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 123,  116)  FRWY     0.46    1.05    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 127,  112)  FRWY     0.47    0.76    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 115,  122)  FRWY     1.89    3.11    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 107,  128)  FRWY     1.12    2.46    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 116, 7021)  RAMP     0.09    0.18    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 113,  125)  RAMP     0.86    1.16    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7019,  126)  RAMP     1.43    2.26    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7022,  113)  RAMP     0.63    0.88    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 112,  131)  RAMP     0.78    1.26    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 131, 7020)  RAMP     0.18    0.28    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7026,  130)  RAMP     0.60    0.71    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 130,  111)  RAMP     0.17    0.17    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 126,  119)  RAMP     0.44    0.69    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 111,  132)  FRWY     0.38    0.63    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 110, 7024)  RAMP     0.56    1.29    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ SUBNETWORK-           24.77   42.17    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+VEHICLE TYPES 1, 2 = AUTO, VEHICLE TYPES 3, 4, 5, 6 = TRUCK, VEHICLE TYPE 7 = TRANSIT BUS, VEHICLE TYPES 8, 9 = CARPOOL, VEHICLE TYPES 10 - 16 USER DEFINED
+
+                                                  FUEL CONSUMPTION BY VEHICLE TYPE (M.P.G.)
+      LINK                1       2       3       4       5       6       7       8       9      10      11      12      13      14      15      16
+ ( 109,  108)  FRWY     6.13   11.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 128,  110)  FRWY    21.63   26.88    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 110,  111)  FRWY    20.78   26.59    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 132,  114)  FRWY    10.49   18.69    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 114,  115)  FRWY    18.55   25.40    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7025,  124)  RAMP     4.66    8.07    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 114, 7023)  RAMP    20.17   29.68    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 119,  109)  FRWY     5.82    9.81    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 112,  119)  FRWY    12.42   18.25    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 122,  121)  FRWY     8.86   14.83    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 125,  127)  FRWY    11.33   17.34    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 124,  115)  RAMP     9.32   17.41    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 116,  125)  FRWY    21.40   27.01    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 123,  116)  FRWY    19.23   25.84    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 127,  112)  FRWY     7.63   13.19    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 115,  122)  FRWY     7.35   12.60    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 107,  128)  FRWY    20.02   26.18    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 116, 7021)  RAMP    21.80   27.94    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 113,  125)  RAMP     6.27   11.45    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7019,  126)  RAMP     3.80    6.80    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7022,  113)  RAMP     3.74    6.50    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 112,  131)  RAMP     9.50   17.25    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 131, 7020)  RAMP    18.39   35.84    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7026,  130)  RAMP     4.64    7.98    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 130,  111)  RAMP     7.53   13.55    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 126,  119)  RAMP    12.13   20.87    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 111,  132)  FRWY    14.53   24.04    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 110, 7024)  RAMP    28.22   33.91    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ SUBNETWORK-            9.76   16.13    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+VEHICLE TYPES 1, 2 = AUTO, VEHICLE TYPES 3, 4, 5, 6 = TRUCK, VEHICLE TYPE 7 = TRANSIT BUS, VEHICLE TYPES 8, 9 = CARPOOL, VEHICLE TYPES 10 - 16 USER DEFINED
+
+                                               FRESIM CUMULATIVE VALUES OF EMISSION
+                                              VEHICLE EMISSIONS BY VEHICLE TYPE (GRAMS / MILE)
+                                                                            HC
+      LINK                1       2       3       4       5       6       7       8       9      10      11      12      13      14      15      16
+ ( 109,  108)  FRWY     0.67    0.73    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 128,  110)  FRWY     0.06    0.06    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 110,  111)  FRWY     0.06    0.07    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 132,  114)  FRWY     0.33    0.28    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 114,  115)  FRWY     0.10    0.08    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7025,  124)  RAMP     0.93    1.14    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 114, 7023)  RAMP     0.10    0.08    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 119,  109)  FRWY     0.57    0.77    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 112,  119)  FRWY     0.26    0.32    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 122,  121)  FRWY     0.43    0.50    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 125,  127)  FRWY     0.26    0.29    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 124,  115)  RAMP     0.46    0.48    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 116,  125)  FRWY     0.06    0.07    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 123,  116)  FRWY     0.09    0.09    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 127,  112)  FRWY     0.47    0.50    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 115,  122)  FRWY     0.55    0.57    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 107,  128)  FRWY     0.08    0.08    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 116, 7021)  RAMP     0.05    0.06    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 113,  125)  RAMP     0.69    0.73    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7019,  126)  RAMP     1.06    1.26    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7022,  113)  RAMP     1.10    1.37    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 112,  131)  RAMP     0.42    0.41    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 131, 7020)  RAMP     0.18    0.15    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7026,  130)  RAMP     0.95    1.16    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 130,  111)  RAMP     0.58    0.67    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 126,  119)  RAMP     0.33    0.33    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 111,  132)  FRWY     0.21    0.16    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 110, 7024)  RAMP     0.06    0.06    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ SUBNETWORK-            0.36    0.39    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+VEHICLE TYPES 1, 2 = AUTO, VEHICLE TYPES 3, 4, 5, 6 = TRUCK, VEHICLE TYPE 7 = TRANSIT BUS, VEHICLE TYPES 8, 9 = CARPOOL, VEHICLE TYPES 10 - 16 USER DEFINED
+
+                                               FRESIM CUMULATIVE VALUES OF EMISSION
+                                              VEHICLE EMISSIONS BY VEHICLE TYPE (GRAMS / MILE)
+                                                                            CO
+      LINK                1       2       3       4       5       6       7       8       9      10      11      12      13      14      15      16
+ ( 109,  108)  FRWY    60.08   62.36    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 128,  110)  FRWY     1.56    1.64    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 110,  111)  FRWY     2.13    1.79    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 132,  114)  FRWY    26.93   21.45    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 114,  115)  FRWY     4.91    3.55    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7025,  124)  RAMP    83.40   99.73    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 114, 7023)  RAMP     4.91    3.16    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 119,  109)  FRWY    44.46   67.02    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 112,  119)  FRWY    18.79   24.46    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 122,  121)  FRWY    33.73   40.66    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 125,  127)  FRWY    19.04   22.18    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 124,  115)  RAMP    33.12   39.93    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 116,  125)  FRWY     1.77    2.58    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 123,  116)  FRWY     4.11    3.96    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 127,  112)  FRWY    40.52   42.44    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 115,  122)  FRWY    47.08   48.73    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 107,  128)  FRWY     3.30    3.24    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 116, 7021)  RAMP     1.43    1.47    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 113,  125)  RAMP    60.74   61.78    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7019,  126)  RAMP    98.14  115.20    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7022,  113)  RAMP   102.41  125.46    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 112,  131)  RAMP    32.96   31.91    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 131, 7020)  RAMP    10.21    9.09    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7026,  130)  RAMP    85.44  101.63    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 130,  111)  RAMP    42.74   56.57    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 126,  119)  RAMP    25.90   25.60    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 111,  132)  FRWY    15.09   10.53    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 110, 7024)  RAMP     1.02    1.13    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ SUBNETWORK-           29.12   31.87    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+VEHICLE TYPES 1, 2 = AUTO, VEHICLE TYPES 3, 4, 5, 6 = TRUCK, VEHICLE TYPE 7 = TRANSIT BUS, VEHICLE TYPES 8, 9 = CARPOOL, VEHICLE TYPES 10 - 16 USER DEFINED
+
+                                               FRESIM CUMULATIVE VALUES OF EMISSION
+                                              VEHICLE EMISSIONS BY VEHICLE TYPE (GRAMS / MILE)
+                                                                            NO
+      LINK                1       2       3       4       5       6       7       8       9      10      11      12      13      14      15      16
+ ( 109,  108)  FRWY     2.38    2.29    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 128,  110)  FRWY     0.83    0.81    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 110,  111)  FRWY     0.88    0.83    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 132,  114)  FRWY     1.37    1.23    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 114,  115)  FRWY     0.90    0.89    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7025,  124)  RAMP     3.12    3.11    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 114, 7023)  RAMP     0.76    0.66    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 119,  109)  FRWY     2.40    2.25    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 112,  119)  FRWY     1.31    1.26    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 122,  121)  FRWY     1.76    1.58    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 125,  127)  FRWY     1.32    1.32    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 124,  115)  RAMP     1.68    1.21    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 116,  125)  FRWY     0.80    0.81    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 123,  116)  FRWY     0.87    0.85    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 127,  112)  FRWY     2.14    1.93    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 115,  122)  FRWY     2.00    1.95    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 107,  128)  FRWY     0.86    0.83    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 116, 7021)  RAMP     0.84    0.76    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 113,  125)  RAMP     2.39    2.23    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7019,  126)  RAMP     3.57    3.55    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7022,  113)  RAMP     3.53    3.66    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 112,  131)  RAMP     1.57    1.32    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 131, 7020)  RAMP     0.76    0.46    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ (7026,  130)  RAMP     3.14    3.16    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 130,  111)  RAMP     2.16    1.62    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 126,  119)  RAMP     1.14    1.08    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 111,  132)  FRWY     1.07    0.92    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ ( 110, 7024)  RAMP     0.52    0.54    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+ SUBNETWORK-            1.54    1.44    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00    0.00
+VEHICLE TYPES 1, 2 = AUTO, VEHICLE TYPES 3, 4, 5, 6 = TRUCK, VEHICLE TYPE 7 = TRANSIT BUS, VEHICLE TYPES 8, 9 = CARPOOL, VEHICLE TYPES 10 - 16 USER DEFINED
+
+
+
+
+
+                                          -------------------------------
+                                          NETWORK-WIDE AVERAGE STATISTICS
+                                          -------------------------------
+
+ TOTAL VEHICLE- MILE =    1542.12     VEHICLE-HOURS OF:  MOVE TIME =    33.85 , DELAY TIME =     4.02 , TOTAL TIME =    37.87
+
+ AVERAGE SPEED ( MPH)=      40.72     MOVE/TOTAL = 0.89       MINUTES/MILE OF:  DELAY TIME =     0.16 , TOTAL TIME =     1.47
+
+ NETWORK-WIDE STATISTICS FOR SCRIPT PROCESSING
+    1542.12,    33.85,     4.02,    37.87,      40.72, 0.89,     0.16,     1.47
+
+ TOTAL CPU TIME FOR SIMULATION =        4.49 SECONDS
+ TOTAL CPU TIME FOR THIS RUN =        4.49 SECONDS
+0***** THERE WERE   5 WARNING MESSAGES.
+0LAST CASE PROCESSED
